@@ -10,3 +10,4 @@ nev = "Teszáry Péter"
 osztaly = "1/13b."
 print("Név: ", nev, "Osztály: ", osztaly, "Dátum: ", datetime.date.today())
 print(25*"-")
+print("házi feladatot megcsinálni")
