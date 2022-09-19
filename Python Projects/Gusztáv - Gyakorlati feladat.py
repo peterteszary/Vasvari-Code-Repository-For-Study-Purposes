@@ -3,7 +3,7 @@ friends = input("Hány ismerősének szeretne ajándékot venni? ") #bekérem az
 eredmeny = int(budget) // int(friends)
 print("Önnek", eredmeny, "forint összeg jut egy fő ajándékára", )
 
-
+#ez az import dátum és idő függvény.
 
 import datetime
 nev = "Teszáry Péter"
