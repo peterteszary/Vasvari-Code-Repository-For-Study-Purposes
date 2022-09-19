@@ -10,5 +10,5 @@ import datetime
 nev = "Teszáry Péter"
 osztaly = "1/13b."
 print("Név: ", nev, "Osztály: ", osztaly, "Dátum: ", datetime.date.today())
-print(25*"-")
+print(25*"-") # Ez csinál 25 db vonalat egymás mellé.
 print("házi feladatot megcsinálni")
