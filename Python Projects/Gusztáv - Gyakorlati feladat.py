@@ -4,6 +4,7 @@ eredmeny = int(budget) // int(friends)
 print("Önnek", eredmeny, "forint összeg jut egy fő ajándékára", )
 
 #ez az import dátum és idő függvény.
+#majd még lehet fokozni komplexebb dolgokkal is, de ez most csak egy Git teszt
 
 import datetime
 nev = "Teszáry Péter"
