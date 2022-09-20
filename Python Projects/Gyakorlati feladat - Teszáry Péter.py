@@ -1,14 +1,14 @@
-#Teszáry Péter
+# Teszáry Péter
 
 import datetime
 print('\t', "Tas, Ond és Álmos utazása", '\n', datetime.date.today())
 
-karakterlanc= input("Kérek egy karakterláncot: ")
+karakterlanc = input("Kérek egy karakterláncot: ")
 print(25 * karakterlanc)
 
-tas= int(input("Mennyi pénze van Tasnak? "))
-ond= int(input("Mennyi pénze van Ondnak? "))
-almos= int(input("Mennyi pénze van Álmosnak? "))
+tas = int(input("Mennyi pénze van Tasnak? "))
+ond = int(input("Mennyi pénze van Ondnak? "))
+almos = int(input("Mennyi pénze van Álmosnak? "))
 
 print("\n")
 
