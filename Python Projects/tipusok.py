@@ -13,3 +13,9 @@ tort = int(tort)
 
 print(tort)
 print(type(tort))
+
+igaz = True
+hamis = False
+
+print(type(igaz))
+print(type(hamis))
