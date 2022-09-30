@@ -1,0 +1,1 @@
+"""Írjunk kamatszámító programot Összeg=alap*(1+kamat/100/12*hónap)"""
