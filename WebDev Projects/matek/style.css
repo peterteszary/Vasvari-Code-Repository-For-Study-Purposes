@@ -1,0 +1,60 @@
+body{
+    background-color: #ffffcc;
+    color: #CC6600;
+    }
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.finite-series {
+    font-weight:bold;
+    font-style: italic;
+}
+
+.smaller-font-size {
+    font-size: 17px;
+}
+
+
+.fuchsia {
+    color: #ff00ff;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+
+.purple {
+    color: purple;
+    font-weight: semi-bold;
+  }
+
+
+    /* unvisited link */
+a:link {
+    color: #000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #cc00cc;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ff3300;
+  }
+
