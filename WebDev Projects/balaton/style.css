@@ -11,8 +11,52 @@ h1{
 .intend-basic-info {
     padding: 0px 50px 0px 50px;
     line-height: 2;
+    text-align: justify;
   }
 
 .intend-first {
     text-indent: 20px;
   }
+
+ .forras{
+  font-family: 'Courier New', Courier, monospace;
+  color: blueviolet;
+  }
+
+  .italic-bold{
+    font-style: italic;
+  }
+
+  .for-of-five{
+    width: 80%;
+    margin-left: 0;
+  }
+
+.li-heading{
+  font-weight: bold;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.li-text{
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.square-list{
+  list-style-type: square;
+}
+
+.szechenyi-quote{
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.circle-list 
+{
+  list-style-type: disc;
+}
+
+.alpha-list {
+  list-style-type: lower-alpha;
+}
