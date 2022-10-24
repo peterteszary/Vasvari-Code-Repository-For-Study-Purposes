@@ -12,17 +12,22 @@
     <p>Táblázatok HTML-tagjai: table, tr (sor), td (adatcella) vagy th (fejléccella)</p>
 
 <p>Minden sorban ugyanannyi cella van.</p>
-<p></p>
-
+    <ul>
+        <li>border (0, 1) = szegélyezés (0 = nincs, 1 = van)</li>
+        <li>cellspacing (szám) = cellaköz, cellák közötti távolság</li>
+        <li>cellpadding (szám) = cella belső margó (bélés)</li>
+        <li>align = igazítás vízszintesen az ablak szélei között</li>
+        <li>width =</li>
+    </ul>
 <h2>Péla: 5 sorból és 7 oszlopból álló táblázat</h2>
 
-/* table>tr*5>td*7 */
+<!-- table>tr*5>td*7 -->
 
-<table>
+<table border="1" cellspacing="0" cellpadding="10" align="center" width="50%">
  
     <tr>
         <td>11</td>
-        <td>12</td>
+        <td>12aa</td>
         <td>13</td>
         <td>14</td>
         <td>15</td>
@@ -54,7 +59,7 @@
         <td>44</td>
         <td>45</td>
         <td>46</td>
-        <td>47</td>
+        <td>47xxxx</td>
     </tr>
     <tr>
         <th>51</th>
