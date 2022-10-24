@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Táblázatok és Attribútumok</title>
 </head>
 <body>
     <h1>Alaptábla formázásokkal</h1>
@@ -17,59 +17,68 @@
         <li>cellspacing (szám) = cellaköz, cellák közötti távolság</li>
         <li>cellpadding (szám) = cella belső margó (bélés)</li>
         <li>align = igazítás vízszintesen az ablak szélei között</li>
-        <li>width =</li>
+        <li>width = táblázat szélessége</li>
+        <li>bgcolor = háttérszín</li>
     </ul>
 <h2>Péla: 5 sorból és 7 oszlopból álló táblázat</h2>
 
 <!-- table>tr*5>td*7 -->
 
-<table border="1" cellspacing="0" cellpadding="10" align="center" width="50%">
- 
-    <tr>
-        <td>11</td>
-        <td>12aa</td>
-        <td>13</td>
-        <td>14</td>
-        <td>15</td>
-        <td>16</td>
-        <td>17</td>
-    </tr>
-    <tr>
-        <td>21</td>
-        <td>22</td>
-        <td>23</td>
-        <td>24</td>
-        <td>25</td>
-        <td>26</td>
-        <td>27</td>
-    </tr>
-    <tr>
-        <td>31</td>
-        <td>32</td>
-        <td>33</td>
-        <td>34</td>
-        <td>35</td>
-        <td>36</td>
-        <td>37</td>
-    </tr>
-    <tr>
-        <td>41</td>
-        <td>42</td>
-        <td>43</td>
-        <td>44</td>
-        <td>45</td>
-        <td>46</td>
-        <td>47xxxx</td>
-    </tr>
-    <tr>
-        <th>51</th>
-        <th>52</th>
-        <th>53</th>
-        <th>54</th>
-        <th>55</th>
-        <th>56</th>
-        <th>57</th>
-    </tr>
-
+        <table border="1" cellspacing="0" cellpadding="10" align="center" width="50%" bgcolor="yellow">
+        <tr bgcolor="silver">
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+        </tr>
+            <tr>
+                <td>11</td>
+                <td>12aa</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+            </tr>
+            <tr align="center">
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+                <td>35</td>
+                <td>36</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+                <td>44</td>
+                <td>45</td>
+                <td>46</td>
+                <td>47xxxx</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>52</td>
+                <td>53</td>
+                <td>54</td>
+                <td>55</th>
+                <td>56</th>
+                <td>57</td>
+            </tr>
+        </table>
 </body>
 </html>
