@@ -1,7 +1,8 @@
 # Ez a program, kiszámolja a homlokzat szigetelésének anyagköltségét.
 # Azért ilyen kalkulátort készítettem, mert a beadandóm késedelmének és elmaradásának oka is ez volt.
 # Ez elmúlt néhány hétben a feleségemmel ketten szigeteljük a házat, ezért próbálunk még a fagyok beállta előtt végezni.
-# A szineket a szövegben innen "szereztem":  https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal
+# A szineket a szövegben innen "szereztem":
+# https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal
 # A kilépést pedig innen: https://stackoverflow.com/questions/48189978/python-if-else-exit
 
 # Terminál betűszín:
@@ -12,7 +13,8 @@ class bcolors:
     OKBLUE = '\033[94m'
 
 
-#Az anyagok ára:
+# Az anyagok ára:
+
 hungarocell_ar = 2500
 ragaszto_ar = 2000
 dubel_ar = 250
@@ -22,7 +24,7 @@ halo_ar = 1500
 
 print("Üdvözlöm a homlokzat szigetelés kalkulátorban!")
 print("A kalkulációt az Ön által megadott négyzetméter alapján fogja a kalkulátor kiszámítani.")
-print(bcolors.WARNING + "A homlokzat szigetelés és a lábazat szigetelés méretét négyzetméterben, külön-külön kell megadni." + bcolors.ENDC)
+print(bcolors.WARNING + "A homlokzat és lábazat szigetelés méretét négyzetméterben, külön kell megadni." + bcolors.ENDC)
 print("Kérem az árkalkulációhoz válaszoljon a következő kérdésekre:")
 
 # Itt kérem be, hogy mi lesz szigetelve:
@@ -42,13 +44,13 @@ if leszlabazat == "n" and leszhomlokzat == "n":
 
 # Itt kérem be, hogy mely anyagokra van szüksége:
 
-else :
+else:
     print("Kérem adja meg mire van szüksége: ")
 
     hungarocell = input("Hungarocell? i/n ")
     if hungarocell == "i":
         print("Hozzáadtam a hungarocellt a kalkulációhoz")
-    else :
+    else:
         hungarocell_ar = 0
         print("Rendben. A Tétel nem kerül rögzítésre!")
 
@@ -86,22 +88,23 @@ mindossz = hungarocell_ossz + ragaszto_ossz + dubel_ossz + halo_ossz
 
 # Tételesen:
 
-print("A hungarocell ára: " ,hungarocell_ossz, "Ft.")
-print("A ragasztó ára: " ,ragaszto_ossz, "Ft.")
-print("A dűbel ára: " ,dubel_ossz, "Ft.")
-print("A háló ára: " ,ragaszto_ossz, "Ft.")
+print("A hungarocell ára: ", hungarocell_ossz, "Ft.")
+print("A ragasztó ára: ", ragaszto_ossz, "Ft.")
+print("A dűbel ára: ", dubel_ossz, "Ft.")
+print("A háló ára: ", ragaszto_ossz, "Ft.")
 
 print("Mindösszesen: ", mindossz, "Ft.")
 
-# Ha esetleg sehol sem válaszolt igennel, akkor ezt jelzi illetve kilép a program. Ha valid válaszokat adott, akkor pedig dönthet, hogy megrendeli vagy sem.
+# Ha esetleg sehol sem válaszolt igennel, akkor ezt jelzi illetve kilép a program.
+# Ha valid válaszokat adott, akkor pedig dönthet, hogy megrendeli vagy sem.
 # Ekkor is más-más üzenetet kap.
 
 if mindossz == 0:
-    print(bcolors.WARNING + "Nincs tétel a kalkulációban a kalkulációt nem lehet elkészíteni! A kalkulátor bezáródik!" + bcolors.ENDC)
+    print(bcolors.WARNING + "Nincs tétel a kalkulációban így nem lehet elkészíteni! A kalkulátor bezáródik!" + bcolors.ENDC)
     exit()
 else:
     rendeles = input("Megrendeli a kalkulációban szereplő tételeket? i/n: ")
 if rendeles == "i":
-    print (bcolors.OKGREEN + "A rendelését rögzítettük " '\U0001F603' + bcolors.ENDC)
-else :
+    print(bcolors.OKGREEN + "A rendelését rögzítettük " '\U0001F603' + bcolors.ENDC)
+else:
     print(bcolors.OKBLUE + "Köszönjük, hogy nálunk érdeklődött!" + bcolors.ENDC)
