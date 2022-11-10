@@ -113,10 +113,10 @@ if po_A:
         po = "Borsófőzelék, Finomfőzelék"
         po_pr = pr_po_A + pr_po_B
         print(po, "Fizetendő:", pr_po, "Ft")
-  #      if po_C:
-  #          m = "Borsófőzelék, Finomfőzelék és Szósz (Kentucky, Ketchup, BBQ)"
-  #          pr_po = pr_po_A + pr_po_B + pr_po_C
-  #          print(po, "Fizetendő:", pr_po, "Ft")
+        if po_C:
+            m = "Borsófőzelék, Finomfőzelék és Szósz (Kentucky, Ketchup, BBQ)"
+            pr_po = pr_po_A + pr_po_B + pr_po_C
+            print(po, "Fizetendő:", pr_po, "Ft")
     else:
         print(po, "Fizetendő:", pr_po, "Ft")
 
