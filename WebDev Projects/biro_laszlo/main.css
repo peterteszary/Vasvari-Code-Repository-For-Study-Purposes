@@ -1,0 +1,52 @@
+body {
+    background-color: #6EB5B8;
+    color: #3A414C;
+  
+  }
+
+a:link {
+    color: #756F72;
+  }
+  
+a:visited {
+    color: #756F72;
+}
+  
+a:hover {
+    color: #756F72;
+ 
+  }
+  
+a:active {
+    color: #756F72;
+
+  }
+
+.container{
+      display: flex;
+    justify-content: center
+        }
+
+.table-class{
+    width: 800px;
+    background-color: #A7FFC3;
+    margin: 5px;
+    padding: 5px;
+}
+
+.border-one{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.link-cell{
+    height: 125px;
+}
+
+.link{
+    text-align: center;
+}
+
+.otvenpx{
+    width: 50px;    
+}
