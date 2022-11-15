@@ -1,4 +1,4 @@
-# Ez a program, kiszámolja a homlokzat szigetelésének anyagköltségét.
+# Ez a program, kiszámolja a homlokzat szigetelésének anyagköltségét. Alapszinten
 # Azért ilyen kalkulátort készítettem, mert a beadandóm késedelmének és elmaradásának oka is ez volt.
 # Ez elmúlt néhány hétben a feleségemmel ketten szigeteljük a házat, ezért próbálunk még a fagyok beállta előtt végezni.
 # A szineket a szövegben innen "szereztem":
