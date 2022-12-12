@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Átlátszóság</title>
+	<link rel=stylesheet type=text/css href=atlat.css>
+</head>
+
+<body>
+
+<h1>Az elemek átlátszósága</h1>
+
+<p id=leiras>Amikor az elemeket pozicionáljuk, azok olyan helyzetbe is kerülhetnek, hogy egymást takarják. Az egymást takaró elemek alaphelyzetben nem átlátszóak, azaz a felülre került elem teljesen láthatatlanná teszi az alatta lévő letakart részt. Az átlátszóság <span class=piros>(opacity)</span> tulajdonsággal ezen változtatni tudunk: ha a fedő (azaz felül lévő) elemnél az "opacity" tulajdonságnak értéket adunk, akkor annak "átlátszóságát" határozzuk meg.<br><br>
+Az "opacity" értékei 0 és 1 közötti valós értékek lehetnek, amelynél az 1 az egyáltalán nem átlátható, 0.5 az 50% -os átlátszóságot, a 0 a teljesen átlátszó tulajdonságot fogja jelenteni.</p>
+
+<p>Ha az elemek nem átfedőek, de mégis szeretne a háttérszínre "halványítást" beállítani, akkor nem kell az "opacity" tulajdonságot használni, hanem az rgb színkódolásnál a negyedik paramétert kell beállítani: pl. "background: rgba(76, 175, 80, 0.3);" - a szín 30%-ban átlátszó lesz. </p>
+
+<p class="szoveg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in euismod neque. Duis quis nisi volutpat, blandit massa id, mattis odio. Duis nec elementum justo, in pharetra diam. Mauris diam turpis, convallis vel posuere eget, lacinia eu felis. Pellentesque vestibulum nisl in nisi posuere, non ultricies justo blandit. Integer faucibus cursus bibendum. Ut dignissim bibendum eros in scelerisque. Aliquam purus felis, imperdiet imperdiet urna ut, convallis tristique magna. Aenean non leo eget nisl vestibulum commodo. Suspendisse et mauris sit amet nisl placerat mattis. Praesent velit ante, vestibulum non faucibus ac, hendrerit at mauris. Proin consequat elementum ultricies. Nullam facilisis egestas erat et aliquet. Sed viverra nunc et odio volutpat vestibulum. Vestibulum suscipit gravida suscipit. Mauris id diam vel metus gravida finibus.</p>
+
+<div class=doboz id="d1">Doboz-1</div>
+
+<div class=doboz id="d2">Doboz-2</div>
+
+<div class=doboz id="d3">Doboz-3</div>
+
+<div class=doboz id="d4">Doboz-4</div>
+
+
+</body>
+
+</html>

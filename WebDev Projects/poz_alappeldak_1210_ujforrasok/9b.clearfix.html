@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Clearfix</title>
+	<style>
+		#szoveg { 
+			border: 2px solid red;
+			padding: 10px;
+		}
+		img {
+			float: left;
+			margin-right: 10px;
+		 }
+	</style>
+</head>
+
+<body>
+
+<h1>Az úsztatás túlcsordulásának kezelése (clearfix)</h1>
+
+<p>Ha egy elemre úsztatást állítottunk be és az elem magasabb, mint az, amelybe elheztük, akkor az túlcsordul azon kívülre. (Ld. a mintát.)</p>
+
+<p>Megoldás: arra az elemre, amelyik kisebb (vagyis amelyikbe belecsúszik az úsztatott elem), adjunk <span class=piros>overflow: auto</span> beállítást. </p>
+
+<p id=szoveg>
+<img src=erdo.jpg>
+Az erdő olyan természetes vagy telepített élőhely, amelynek jellegét fák sűrű csoportja határozza meg. Az erdőben bonyolult életközösségek, ökoszisztémák alakulhatnak ki. Az erdők a Föld talán legkomplexebb életközösségei, amelyben egyaránt megtaláljuk a talajban élő mikroorganizmusokat, a földfelszínen élő mohákat, gombákat, lágy- és fás szárú növényeket. Állatvilága többnyire rendkívül gazdag, hosszú táplálékláncokkal. 
+</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Elemek sorrendje</title>
+	<link rel=stylesheet type=text/css href=sorrend.css>
+</head>
+
+<body>
+
+<h1>Az elemek sorrendje</h1>
+
+<p id=leiras>Amikor az elemeket pozicionáljuk, azok olyan helyzetbe is kerülhetnek, hogy egymást takarják. Az egymást takaró elemek láthatóságát alapértelmezetten a HTML-dokumentumban elfoglalt sorrendjük határozza meg, azaz a későbbi elem takarja a korábbit. Ezt a sorrendet a <span class=piros>z-index</span> tulajdonsággal lehet megváltoztatni, amely az elem síkjára merőleges z-tengelyről kapta a nevét.<br><br>
+A z-index értéke tetszőleges egész szám, tehát pozitív és negatív értékeket is megadhatunk értékül számára. A láthatóság ezeknek a számoknak a sorrendjébe rendeződik: a legkisebb z-indexű kerül legalulra (azaz a nézőtől legtávolabbra) és a legnagyobb z-indexű legfelülre (azaz a nézőhöz legközelebb). A számoknak nem kell egymást követőeknek lenniük és bárhonnan indulhat a számozás.</p>
+
+<p class="szoveg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in euismod neque. Duis quis nisi volutpat, blandit massa id, mattis odio. Duis nec elementum justo, in pharetra diam. Mauris diam turpis, convallis vel posuere eget, lacinia eu felis. Pellentesque vestibulum nisl in nisi posuere, non ultricies justo blandit. Integer faucibus cursus bibendum. Ut dignissim bibendum eros in scelerisque. Aliquam purus felis, imperdiet imperdiet urna ut, convallis tristique magna. Aenean non leo eget nisl vestibulum commodo. Suspendisse et mauris sit amet nisl placerat mattis. Praesent velit ante, vestibulum non faucibus ac, hendrerit at mauris. Proin consequat elementum ultricies. Nullam facilisis egestas erat et aliquet. Sed viverra nunc et odio volutpat vestibulum. Vestibulum suscipit gravida suscipit. Mauris id diam vel metus gravida finibus.</p>
+
+<div class=doboz id="d1">Doboz-1</div>
+
+<div class=doboz id="d2">Doboz-2</div>
+
+<div class=doboz id="d3">Doboz-3</div>
+
+<div class=doboz id="d4">Doboz-4</div>
+
+<p class="szoveg">Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<p class="szoveg">Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+<p class="szoveg">Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<p class="szoveg">Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+<p class="szoveg">Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<p class="szoveg">Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+</body>
+
+</html>

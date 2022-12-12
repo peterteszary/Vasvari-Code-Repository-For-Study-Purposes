@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Átlátszóság</title>
+	<link rel=stylesheet type=text/css href=atlat2.css>
+</head>
+
+<body>
+
+<h1>Az elemek átlátszósága</h1>
+
+<p id=leiras>Amikor az elemeket pozicionáljuk, azok olyan helyzetbe is kerülhetnek, hogy egymást takarják. Az egymást takaró elemek alaphelyzetben nem átlátszóak, azaz a felülre került elem teljesen láthatatlanná teszi az alatta lévő letakart részt. Az átlátszóság <span class=piros>(opacity)</span> tulajdonsággal ezen változtatni tudunk: ha a fedő (azaz felül lévő) elemnél az "opacity" tulajdonságnak értéket adunk, akkor annak "átlátszóságát" határozzuk meg.<br><br>
+Az "opacity" értékei 0 és 1 közötti valós értékek lehetnek, amelynél az 1 az egyáltalán nem átlátható, 0.5 az 50% -os átlátszóságot, a 0 a teljesen átlátszó tulajdonságot fogja jelenteni.</p>
+
+<p>Ha az elemek nem átfedőek, de mégis szeretne a háttérszínre "halványítást" beállítani, akkor nem kell az "opacity" tulajdonságot használni, hanem az rgb színkódolásnál a negyedik paramétert kell beállítani: pl. "background: rgba(76, 175, 80, 0.3);" - a szín 30%-ban átlátszó lesz. </p>
+
+<div id="kulso1">
+	<div class=doboz id="d1"><img src=erdo.jpg></div>
+	<div class=doboz id="d2"></div>
+</div>
+
+<div id="kulso2">
+	<div class=doboz id="d3"><img src=gyumolcsok.jpg></div>
+	<div class=doboz id="d4"></div>
+</div>
+
+<div id="d5"><img src=erdo.jpg></div>
+
+</body>
+
+</html>

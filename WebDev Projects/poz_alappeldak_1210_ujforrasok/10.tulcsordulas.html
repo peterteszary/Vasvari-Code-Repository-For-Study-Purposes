@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Túlcsordulás</title>
+	<style>
+
+		.minta {
+			border: 2px solid red;
+			background-color: lightgray;
+			padding: 10px; 
+			width: 300px;
+			height: 100px;
+		}
+
+		.fontos {
+			color: red;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		#alap {
+			margin-bottom: 120px;
+		}
+
+		#elrejt {
+			
+		}
+		
+		#mindiggordul {
+			
+		}
+
+		#automatikus {
+		
+		}		
+
+	</style>
+</head>
+
+<body>
+
+<h1>Dobozok tartalma túlnyúlásának/túlcsordulásának kezelése</h1>
+
+<p>Az overflow (túlnyúlás vagy túlcsordulás) összevont tulajdonság specifikálja azt, hogy milyen legyen a megjelenítés, ha egy tartalom túlnyúlik a befoglaló doboznak a tartalom számára rendelkezésre álló területén. Mind blokkszintű, mint aorok belüli elemnél alkalmazható, de csak azoknál hoz érdemi változást, amelyeknél magassági értéke határoztunk meg!</p>
+
+<p>A kilógó területek kezelésének módját az egyes irányokra is meghatározhatjuk külön-külön:</p>
+<ul>
+	<li><span class="fontos">overflow-x</span>: vízszintes irányú túlnyúlás kezelése</li>
+	<li><span class="fontos">overflow-y</span>: függőleges irányú túlnyúlás kezelése</li>
+	<li><span class="fontos">overflow</span>: a kettő összevont alakja, amely egyszerre kezeli mindkét irányú túlnyúlást (ha itt csak egy érték van megadva, akkor az mindkét irányra vonatkozik, egyébként az első érték az x, a második pedig az y irányú túlnyúlást szabályozza)</li>
+</ul>
+
+<p>Ha gördítősáv helyeződik az elem széléhez, akkor az a belső szegély és a kitöltés külső éle közé illeszkedik be, így a gördítősáv által elfoglalt hely is befolyásolja a méretek kiszámítását, mert takarni fogja a tartalom egy részét!</p>
+
+<p>Lehetséges értékei:</p>
+
+<ul>
+	<li><span class="fontos">visible (alapértelmezett)</span>: a beágyazott tartalom akár belefér a befoglaló doboz content-box részébe, akár nem, mindig teljes egészében megjelenik – tehát az esetlegesen az el nem férő rész túlcsordul, de ez a túlcsordulás ne kerül levágásra, hanem a beágyazó elem dobozán kívül jelenik meg</li>
+	<li><span class="fontos">hidden</span>: a beágyazott tartalomnak csak a befoglaló doboz content-box részébe eső daraba jelenik meg, az azon kívül eső rész nem látszik, azaz a túlcsordult rész le van vágva</li>
+	<li><span class="fontos">scroll</span>: a tartalomnak a befoglaló doboz content-box részébe eső darabja és a böngésző által alkalmazott görgető mechanizmus jelenik meg, amellyel a tartalom kétoldali gördítősávval görgethetővé válik</li>
+	<li><span class="fontos">auto</span>: viselkedése böngészőfüggő, de valamilyen görgetőmechanizmust hoz létre a túlcsordulásra, csak arra az oldalra helyez gördítősávot, ahová az szükséges a doboz mérete alapján</li>
+</ul>
+
+<h2>Alapbeállítás: van túlcsordulás</h2>
+
+<p class="minta" id="alap">
+Az erdő olyan természetes vagy telepített élőhely, amelynek jellegét fák sűrű csoportja határozza meg. Az erdőben bonyolult életközösségek, ökoszisztémák alakulhatnak ki. Az erdők a Föld talán legkomplexebb életközösségei, amelyben egyaránt megtaláljuk a talajban élő mikroorganizmusokat, a földfelszínen élő mohákat, gombákat, lágy- és fás szárú növényeket. Állatvilága többnyire rendkívül gazdag, hosszú táplálékláncokkal.</p>
+
+<h2>Ha a túlcsordulást elrejtjük:</h2>
+
+<p class="minta" id="elrejt">
+Az erdő olyan természetes vagy telepített élőhely, amelynek jellegét fák sűrű csoportja határozza meg. Az erdőben bonyolult életközösségek, ökoszisztémák alakulhatnak ki. Az erdők a Föld talán legkomplexebb életközösségei, amelyben egyaránt megtaláljuk a talajban élő mikroorganizmusokat, a földfelszínen élő mohákat, gombákat, lágy- és fás szárú növényeket. Állatvilága többnyire rendkívül gazdag, hosszú táplálékláncokkal.</p>
+
+<h2>Ha a tartalom olvashatóságát - minden állapotban -<br> gördítősávok megjelenítésével segítjük:</h2>
+
+<p class="minta" id="mindiggordul">
+Az erdő olyan természetes vagy telepített élőhely, amelynek jellegét fák sűrű csoportja határozza meg. Az erdőben bonyolult életközösségek, ökoszisztémák alakulhatnak ki. Az erdők a Föld talán legkomplexebb életközösségei, amelyben egyaránt megtaláljuk a talajban élő mikroorganizmusokat, a földfelszínen élő mohákat, gombákat, lágy- és fás szárú növényeket. Állatvilága többnyire rendkívül gazdag, hosszú táplálékláncokkal.</p>
+
+<h2>Ha a tartalom olvashatóságát - szükség esetén -<br> gördítősávok megjelenítésével segítjük:</h2>
+
+<p class="minta" id="automatikus">
+Az erdő olyan természetes vagy telepített élőhely, amelynek jellegét fák sűrű csoportja határozza meg. Az erdőben bonyolult életközösségek, ökoszisztémák alakulhatnak ki. Az erdők a Föld talán legkomplexebb életközösségei, amelyben egyaránt megtaláljuk a talajban élő mikroorganizmusokat, a földfelszínen élő mohákat, gombákat, lágy- és fás szárú növényeket. Állatvilága többnyire rendkívül gazdag, hosszú táplálékláncokkal.</p>
+
+
+
+
+</body>
+
+</html>

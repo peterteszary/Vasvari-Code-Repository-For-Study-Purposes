@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="utf-8">
+	<title>Úsztatás</title>
+	<link rel=stylesheet type=text/css href=usztat.css>
+</head>
+
+<body>
+
+<h1>Az úsztatás</h1>
+
+<p>A HTML-tagoknál már volt arról szó, hogyan lehet pl. egy képet az azt követő bekezdésekkel úgy elhelyezni, hogy a kép a szöveg bal vagy jobb oldalához legyen pozicionálva és a szöveg ne íródjon rá a képre. Ekkor azt mondtuk, hogy úsztattuk a képet. Ekkor az "img" tagnak az "align" tulajdonságát állítottuk be "left" vagy "right" értékre.</p>
+
+<p id=leiras>A CSS-ben az <strong><span class=nagybetus>úsztatás</span> <span class=piros>(float)</span> tulajdonsággal</strong> ugyanezt a hatást tudjuk elérni, de nincs korlátozva, hogy csak képeknél lehessen beállítani. Bármilyen elemnél beállíthatjuk, hogy balra ("float: left") vagy jobbra ("float: right") illeszkedik-e.</p>
+
+<p>Az úsztatást arra is alkalmazzuk, hogy az első betűből iniciálát alakítsunk ki. Ekkor az első karaktert sorközi elemként  (span) kell definiálnunk, majd arra kell balra úsztatást ("float: left") és egyéb tulajdonságokat (betűméret, -szín, -árnyék stb.) meghatároznunk.</p>
+
+<p>Ha egy elemnél az örökölt úsztatási értéket szeretnénk megszüntetni, akkor a "float: none" beállítást kell alkalmaznunk.</p>
+
+<p><strong>Fontos: Az úsztatott elemet követő elemek is úszni fognak mindaddig, ameddig azt az aktuális ablakméret lehetővé teszi!</strong></p>
+
+<p>Ha egy adott ponttól kezdve az elemeknek már nem szeretnénk engedélyezni azt, hogy mellettük egyik vagy másik (esetleg mindkét) oldalon legyen úsztatás, akkor azt le kell tiltani a tisztítás - <span class=piros>clear</span> tulajdonság beállításával.</p>
+<div>A "clear" lehetséges értékei:</div>
+<ul>
+	<li>none: engedélyezi az úsztatást mindkét oldalon
+	<li>left: csak a bal oldalon nem lehet úsztatott elem, a jobb oldalon engedélyezzük az úsztatást
+	<li>right: csak a jobb oldalon nem lehet úsztatott elem, a bal oldalon engedélyezzük az úsztatást
+	<li>both: mindkét oldalon le van tiltva az úsztatás
+	<li>inherit: a szülőtől örökölt beállítás legyen érvényes
+</ul>
+
+<p class="szoveg">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in euismod neque. Duis quis nisi volutpat, blandit massa id, mattis odio. Duis nec elementum justo, in pharetra diam. Mauris diam turpis, convallis vel posuere eget, lacinia eu felis. Pellentesque vestibulum nisl in nisi posuere, non ultricies justo blandit. Integer faucibus cursus bibendum. Ut dignissim bibendum eros in scelerisque. Aliquam purus felis, imperdiet imperdiet urna ut, convallis tristique magna. Aenean non leo eget nisl vestibulum commodo. Suspendisse et mauris sit amet nisl placerat mattis. Praesent velit ante, vestibulum non faucibus ac, hendrerit at mauris. Proin consequat elementum ultricies. Nullam facilisis egestas erat et aliquet. Sed viverra nunc et odio volutpat vestibulum. Vestibulum suscipit gravida suscipit. Mauris id diam vel metus gravida finibus.</p>
+
+<p class="szoveg">
+<img src=erdo.jpg id="kep1">
+Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<h2>Alcím</h2>
+
+<p class="szoveg">
+Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+<p class="szoveg">Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<p class="szoveg">Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">
+<img src=ananasz.jpg id="kep2">
+Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+<p class="szoveg">Proin sagittis metus ac ullamcorper feugiat. Cras finibus augue in feugiat pretium. Nunc non dui sit amet lorem imperdiet bibendum. Curabitur ultrices neque sit amet tellus aliquam aliquam. Suspendisse eget ipsum sed quam fermentum aliquet vel eu tellus. Etiam libero leo, fermentum id faucibus sed, consectetur nec arcu. Cras libero nisl, varius id rutrum eu, mollis sit amet massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus eu metus eget rhoncus. Ut a urna pellentesque tortor hendrerit feugiat. Aliquam id turpis non leo fringilla faucibus vulputate sed sem. Aliquam erat volutpat. Curabitur a elementum ipsum. In ut eleifend dui, a faucibus turpis.</p>
+
+<h2>Alcím-2</h2>
+
+<p class="szoveg">Morbi pulvinar odio at rutrum volutpat. Aliquam ut nisi vel nisi tristique consequat. Nunc ut felis dui. Cras sagittis maximus dui, sed bibendum tortor. Suspendisse et tincidunt justo. Pellentesque vitae massa vel ante efficitur condimentum eu vitae purus. Sed interdum nunc id ante congue luctus. Vivamus aliquam elementum sodales. Vivamus tempus dui at magna malesuada porttitor.</p>
+
+<p class="szoveg">Mauris lorem nulla, dapibus eget sodales sodales, accumsan sed leo. Quisque et nisl ornare, tincidunt purus at, pretium augue. Suspendisse imperdiet, tortor quis convallis mollis, dui nibh tincidunt mauris, nec luctus felis turpis id orci. Ut in pharetra ex. Aenean ac magna sed erat imperdiet congue. In scelerisque tincidunt rutrum. Phasellus orci dui, pulvinar sit amet aliquet nec, finibus vulputate turpis. Integer non ante et mauris viverra facilisis quis nec felis.</p>
+
+<p class="szoveg">Vivamus in risus non sem sollicitudin venenatis. Sed mollis rutrum orci, sed sodales justo tincidunt a. Vestibulum rhoncus libero at posuere gravida. Etiam efficitur erat id libero luctus faucibus. Pellentesque rhoncus, est in sagittis fringilla, nisi libero tempus justo, in ultrices elit elit id libero. Quisque urna mauris, facilisis eget tristique in, placerat ornare ligula. In hac habitasse platea dictumst. Duis id urna sed quam scelerisque eleifend. Mauris vitae feugiat nunc. Praesent sit amet dictum nisl. Donec congue malesuada neque vel pulvinar. Aliquam consectetur nulla et nunc tristique tincidunt. Fusce sodales quam gravida mi cursus consectetur. Sed odio eros, sagittis et consequat ut, molestie at enim. Nulla et tellus risus.</p>
+
+</body>
+
+</html>
