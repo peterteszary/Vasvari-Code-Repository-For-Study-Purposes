@@ -1,0 +1,9 @@
+.container {
+    background-color: blue;
+    color: white;
+}
+
+.container-fluid{
+    background-color: blueviolet;
+    color: white;
+}
