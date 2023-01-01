@@ -1,33 +1,37 @@
-zoldfulu = "Zöldfülű"
-zoldfulu_tagdij = 20000
-junior = "Junior"
-junior_tagdij = 10000
-halado = "Haladó"
-halado_tagdij = 7000
-senior = "Senior"
-senior_tagdij = 4000
+# Ez a program egy árajánlat készítéséhez nyújt segítséget
+# A program adatokat és információkat kér be, hogy ezáltal viszonylag pontos kalkulációt tudjon adni.
 
-def getMikulas(szakalhosszak):
-   szakalhosszak.sort()
-   legnagyobbhossz = szakalhosszak[-1]
+# Ide veszem fel a komponensek árait.
 
-   if legnagyobbhossz <= 10:
-      return print("Az ön titulusa:", zoldfulu, "Az ön tagdjía", zoldfulu_tagdij, "Ft.")
-   if legnagyobbhossz <= 30 :
-      return print("Az ön titulusa:", junior, "Az ön tagdjía", junior_tagdij, "Ft.")
-   if legnagyobbhossz <= 50 :
-      return print("Az ön titulusa:", halado, "Az ön tagdjía", halado_tagdij, "Ft.")
-   if legnagyobbhossz <= 100:
-      return print("Az ön titulusa:", senior, "Az ön tagdjía", senior_tagdij, "Ft.")
-   #if legnagyobbhossz >= 101:
-    #  return print("Az ön szakálla túl hosszú, kérem vágjon le belőle!")
+figma_design_terv = 150000
+wp_keretrendszer = 15000
+woo_keretrendszer = 15000
+webshop_kapcsolodo_oldalak_letrehozasa = 75000
+fizetesi_mod_integracio = 15000
+oldal_letrehozas = 2500
+bejegyzesek_feltoltese = 2500
+mobiloptimalizalas = 50000
+oldalbiztonsag = 30000
+technikai_seo = 75000
+google_analytics_integralas = 15000
+google_search_console_integralas = 15000
+termek_feltoltes = 2500
+oldal_elesites = 20000
 
-szakalhosszak = []
-while True:
-   szakallhossz = input("Kérem adja meg a szakáll hosszát cm-ben: ")
-   szakallhossz = int(szakallhossz)
-   szakalhosszak.append(szakallhossz);
-   getMikulas(szakalhosszak);
-   if (szakallhossz == 0):
-      break
-getMikulas(szakalhosszak);
+# Itt indítom el a folyamatot a megadott információk alapján.
+
+def getWPInfo(wp_oldal):
+    print("Ön WordPress weboldalt választott!")
+
+def getWooInfo(woo_oldal):
+    print("Woo oldalt wálasztott!")
+
+print("Üdvözlöm az ajánlatadó alkalmazásban!")
+print("A kalkulációt az Ön által megadott információk alapján fogja a kalkulátor kiszámítani.")
+wp_oldal = input("Weboldalat vagy Webshop-ot szeretne fejlesztetni? o/s ")
+if wp_oldal == "o":
+    getWPInfo
+if wp_oldal == "s":
+    getWooInfo
+
+
