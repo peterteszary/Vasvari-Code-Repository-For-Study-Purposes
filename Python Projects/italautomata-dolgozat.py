@@ -9,13 +9,13 @@ nar_ar = 290
 rost_ar = 330
 osszes_ar = 0
 
-print("Kérem válasszon az ajánlazaink közül!", end = "")
+print("Kérem válasszon az ajánlataink közül!", end = "")
 print("""
 Cola      Narancslé   Rostos üdítő
 260 Ft    290 Ft      330 Ft""")
 
 while valasztas != "E" and valasztas != "e":             # E és kis e-re működjön
-    valasztas = input("\nAjánkataink: (C)ola, (N)arancslé, (R)ostos, Kilépés (E): ")
+    valasztas = input("\nAjánlataink: (C)ola, (N)arancslé, (R)ostos, Kilépés (E): ")
 
     if valasztas == "E" or valasztas == "e":
         break

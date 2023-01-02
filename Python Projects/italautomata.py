@@ -1,37 +1,44 @@
-
-valasztas = 0
-darabszam = 1
-osszesen = valasztas + darabszam
-cola = "C"
-narancsle = "N"
-rostos = "R"
-Kilepes = "E"
-
-italok = [260, 290, 330]
-betuk = ['C' , 'N' , 'R', 'E']
-
-italok[0] = betuk[0]
-italok[1] = "N"
-italok[2] = "R"
+valasztas = ""
+darabszam = 0
+osszesen = valasztas * darabszam
 
 
-print(italok)
-print(betuk)
+italok = [("C", "c", "Cola", 260),
+          ("N", "n", "Narancs", 290),
+          ("R", "r", "Rostos", 330)]
 
-print("Válasszon a tételek közül: ")
-print("C - Cola (260 Ft)")
-print("N - Narancslé (290 Ft)")
-print("R - Rostos üdítő (330 Ft)")
-print("E - Kilépés")
-input("Választás: ")
-input("Darabszám: ")
+res1 = [lis[0] for lis in italok]
+res2 = [lis[1] for lis in italok]
+res3 = [lis[2] for lis in italok]
+res4 = [lis[3] for lis in italok]
 
 
-print
+print ("Italok" + str(res1))
+print ("Italok" + str(res2))
+print ("Italok" + str(res3))
+print ("Italok" + str(res4))
 
-if valasztas == "C":
-    valasztas * darabszam
+while valasztas != "E" and valasztas != "e":
+
+
+    print("Válasszon a tételek közül:")
+    print("C - Cola (260 Ft)")
+    print("N - Narancslé (290 Ft)")
+    print("R - Rostos üdítő (330 Ft)")
+    print("E - Kilépés")
+    valasztas = input("Választás: ")
+    darabszam = input("Darabszám: ")
     print(osszesen)
-if valasztas == "N":
-    valasztas * darabszam
+
+
+
+
+if valasztas == italok[1] or valasztas == italok[2] or valasztas == italok[3]:
+    darabszam = int(input("Kérem, adja meg a darabszámot! "))
     print(osszesen)
+if valasztas == "E" or valasztas == "e":
+    print("OK")
+else:
+        print("\nRossz értéket adott meg, válasszon újra!")
+
+print("Köszönöm a rendelést!")
