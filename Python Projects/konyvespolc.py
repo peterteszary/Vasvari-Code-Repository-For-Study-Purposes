@@ -1,3 +1,4 @@
+# Házi könyvtár program - Teszáry Péter
 # sys modul importálása
 import sys
 
@@ -59,7 +60,7 @@ def alapkonyvtar():
 def menu():
     # A menü csak híváskor fut le.
     print("----------------------------------------------------------")
-    print("\t\t\tHÁZIKÖNYVTÁR", flush=False)
+    print("\t\t\tHÁZI KÖNYVTÁR", flush=False)
     print("----------------------------------------------------------")
     print("\tA következő műveletek hajthatóak végre a könyvtárban\n")
     print("1. Új könyv hozzáadása")
