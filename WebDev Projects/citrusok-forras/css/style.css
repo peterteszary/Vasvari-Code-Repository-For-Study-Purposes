@@ -1,0 +1,62 @@
+
+header{    
+    height: 350px;
+    background-image: url(../img/bg2.jpg);
+    background-position: center center;
+}
+
+h1{
+    background-color: rgba(248, 248, 248, 0.75);
+    margin-top: 80px;
+    padding-left: 11rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;    
+    color: #416618;
+}
+
+h2{    
+    margin-top: 10px;
+    padding: 5px 15px;    
+    color: #416618;
+    border-left: 3px dotted;
+    font-variant: small-caps;
+
+
+}
+
+h3{    
+    font-weight: bold;
+    color: #894f3b; 
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;   
+}
+
+
+li{
+    list-style-image: url(../img/lemon2.png);
+}
+
+
+td,th{
+    text-align: center;
+}
+
+thead>tr:first-child{    
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+.navbar {
+    barkground-color: #fd8800;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+ul li{
+    float: left;
+    margin-left: 40px;
+}

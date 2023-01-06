@@ -1,0 +1,31 @@
+.bg-indigo {
+    background: #4c51bf;
+}
+
+.bg-indigo-dark {
+   background: #3c366b;
+}
+
+.bg-purple {
+    background: #434190;
+}
+
+body{
+    color: #fff;
+    font-weight: 100;
+
+}
+
+p{
+    color: #fff;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 500;
+}
+
