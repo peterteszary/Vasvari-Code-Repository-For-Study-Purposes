@@ -1,24 +1,4 @@
 
-# szam1 = 0
-# szam2 = 0
-# beadas = 0
-# def kisebb(ertek):
-#     if szam1 < szam2:
-#         return "a kisebb érték "
-#     elif szam1 > szam2:
-#         return "a kisebb érték "
-#     elif szam1 == szam2:
-#         return "A két szam egyenlő"
-#
-# while beadas != "":
-#     beadas = input("Adj meg egy számot! ")
-#     if beadas == "":
-#         break
-#     beadas = int(beadas)
-#     print(kisebb())
-
-# Létrehozzuk a kisebb.py fájlt
-
 # Bekérjük a felhasználótól az egyik számot, és tároljuk
 num1 = input("Kérem az első számot: ")
 
