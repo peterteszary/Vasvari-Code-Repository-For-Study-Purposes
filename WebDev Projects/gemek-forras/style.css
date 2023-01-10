@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(50, 50, 243, 0.3);
+    color:rgb(7, 7, 119)
+}
+.navbar{
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#focim{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/feherto.jpg);
+    height: 500px;
+}
+
+#focim h1{
+    text-transform: uppercase;
+    font-weight: bold !important;
+    text-align: center;
+    padding: 200px 0;
+}
+
+h2{
+    margin: 0 20px;
+    margin-bottom: 30px;
+    border-left: 4px dashed rgb(7, 7, 119) ;
+    border-bottom: 4px dashed rgb(7, 7, 119) ;
+    font-variant: small-caps;
+}
+
+p{
+    padding: 0 20px;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+
+}
+
+#kotelezettseg{ 
+    margin-left: 20px;
+    list-style-image: url(kepek/check-mark.png);
+}
+
+.info{
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.blokk {
+    height: 500px;
+    overflow: auto;
+    font-size: 0.8rem;
+}
+
+.fotok {
+    display: block;
+    margin: auto;
+}
+
+#ertekek {
+    width: 70vw;
+    margin: auto;
+}
+
+#ertekek, #ertekek th, #ertekek td{
+    border: 2px solid;
+    border-color: rgb(7, 7, 119);
+}
