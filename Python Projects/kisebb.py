@@ -17,4 +17,3 @@ elif num1 < num2:
 else:
     print("A két szám egyenlő")
 
->>>>>>> dd6d89c01dd813bb40315c896b90ef190594a596
