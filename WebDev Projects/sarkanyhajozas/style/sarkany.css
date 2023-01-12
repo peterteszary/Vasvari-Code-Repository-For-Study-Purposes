@@ -1,8 +1,11 @@
 body {
+  background-image: url(../img/viztukor.png);
   font-family: sans-serif;
 }
 
 #leiras {
+  width: 85%;
+  margin: 50px auto;
 	background-color: silver;
   background-repeat: repeat-x;
   padding: 35px;
