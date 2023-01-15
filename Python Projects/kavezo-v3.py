@@ -6,7 +6,7 @@ tetelek = []
 # file beolvasása és encoding utf-8
 forras = open("itallap.txt", encoding="utf-8")
 
-# for each-el végig megyek az adatokon, stip-el a sorokat törlöm, split-el pedig feldarabolom
+# for each-el végig megyek az adatokon, stip-el az üres sorokat törlöm, split-el pedig feldarabolom
 for adat in forras:
     adat = adat.strip().split()
 
