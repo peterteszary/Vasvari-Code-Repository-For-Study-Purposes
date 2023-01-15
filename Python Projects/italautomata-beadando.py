@@ -1,4 +1,4 @@
-#italautomata
+#italautomata - Teszáry Péter
 
 italok = [("C", "c", "Cola", 260),
           ("N", "n", "Narancs", 290),
