@@ -1,9 +1,14 @@
+# Teszáry Péter
+
+# Itt adom meg a pontozási feltételt, hogy ha 48-nál kisebb akkor nem sikerült
 def pontszam_ellenorzes(pontszam):
     if pontszam >= 48:
         return True
     else:
         return False
 
+# A ciklus ami elvégzi az ellenőrzést a bekért adatok alapján
+# Ha üres értéket ad meg a felhasználó akkor a program kilép
 while True:
     nev = input("Add meg a vizsgázó nevét! ")
     if nev == "":
@@ -14,18 +19,3 @@ while True:
         print(f"{nev} vizsgája sikeres!")
     else:
         print(f"{nev} vizsgája sikertelen.")
-
-def sikeres_e(pontszam):
-    if pontszam >= 48:
-        return True
-    else:
-        return False
-
-nev = input("Adja meg a vizsgázó nevét: ")
-while nev:
-    pontszam = int(input("Adja meg a vizsgázó pontszámát: "))
-    if sikeres_e(pontszam):
-        print(f"A(z) {nev} sikeresen vizsgázott.")
-    else:
-        print(f"A(z) {nev} sikertelenül vizsgázott.")
-    nev = input("Adja meg a vizsgázó nevét: ")
