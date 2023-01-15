@@ -1,0 +1,29 @@
+eladat:
+
+Hozz létre egy "adatok.txt" nevű fájlt, amelyben az alábbi adatokat tárolod el:
+
+Mózes, 1985, M, Budapest
+Ildikó, 1980, N, Szeged
+András, 1990, F, Debrecen
+Katalin, 1995, N, Pécs
+Ádám, 2000, M, Szolnok
+
+Írj egy python scriptet, amely megnyitja az "adatok.txt" fájlt, és minden sort egy listában tárol el. Az egyes adatokat vesszővel válaszd el.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, ahol a harmadik elem "F".
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben az életkor (a második elem) 30 évnél nagyobb.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben az utolsó elem "Budapest"
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben az első elem A betűvel kezdődik.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben a második elem páros szám.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben a negyedik elem hossza nagyobb mint 5 karakter.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben az első elem nagybetűvel kezdődik.
+
+Írj egy függvényt, amely megkapja a listát, és visszaadja azokat az adatokat, amelyekben az utolsó elem "s" betűvel végződik.
+
+A feladatot akkor tekinted teljesítettnek, ha minden függvény
