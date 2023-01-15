@@ -1,0 +1,66 @@
+body {
+  background-image: url(../img/viztukor.png);
+  font-family: sans-serif;
+}
+
+#leiras {
+  width: 85%;
+  margin: 50px auto;
+	background-color: silver;
+  background-repeat: repeat-x;
+  padding: 35px;
+}
+
+h1, h2, h3 {
+	text-shadow: 1px 1px white;
+  color: green
+  text-variant small-caps;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+  text-indent: 35px;
+  text-align: justify;
+}
+
+.kepkeret {
+  width: 350px;
+  float: right;
+  margin: 0 0 10px 15px;
+  border: 5px double;
+  border-color: rgb(0,100,0);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px gray;  
+  background-color: #e4f500;
+}
+
+figcaption {
+  color: darkgreen;
+  text-align: right;
+  font-style: italic;
+}
+
+a {
+  text-decoration: double;
+}
+
+.green-border{
+ border-left: 2px dotted green;
+ border-right: 2px dotted green;
+
+}
