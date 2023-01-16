@@ -1,0 +1,26 @@
+Lajhárok összetett adatszerkezetben
+A feladatok a https://www.webotlet.hu/?cat=205 (Egy informatikatanár napolója feladatból) lettek
+válogatva.
+
+A lajharok.txt fájlban lajhárok adatai találhatóak. Minden lajhár adatai 3 egymás utáni sorban
+szerepelnek. Az egyes sorok közül azonban vannak olyanok, amelyek egynél több adatot tartalmaznak.
+A fájl szerkezete a következő
+
+ név;életkor
+ testtömeg
+ neme;utódok
+
+Az egyes adatok magyarázata:
+
+ név: az állat neve
+ életkor: az állat életkora években megadva (egész szám)
+ testtömeg: az állat tömege, kg-ban megadva (valós szám)
+ neme: a lajhár neme (him, nosteny)
+ utódok: a lajhár utódainak száma
+
+Olvassa be és tárolja el egy tömbbe vagy listába az állatokat! Oldja meg a következő feladatokat, és
+írja ki a képernyőre az eredményeket!
+
+1. Hány lajhár adatai vannak a fájlban? Ebből hány darab nőstény és hány darab hím van?
+2. Hány kölyke van a hímeknek és a nőstényeknek külön-külön és összesen?
+3. Melyik lajhár a legsúlyosabb, írd ki a nevét és a testömegét
