@@ -1,5 +1,0 @@
-['Mózes', '1985', 'M', 'Budapest']
-['Ildikó', '1980', 'N', 'Szeged']
-['András', '1990', 'F', 'Debrecen']
-['Katalin', '1995', 'N', 'Pécs']
-['Ádám', '2000', 'M', 'Szolnok']

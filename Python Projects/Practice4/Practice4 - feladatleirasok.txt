@@ -1,0 +1,5 @@
+Definiálj egy függvényt, ami bekér egy listát és egy számot, és visszaadja, hogy a szám hányszor szerepel a listában.
+Definiálj egy függvényt, ami bekér egy szöveget és egy másik szöveget, és visszaadja, hogy az első szövegben hányszor szerepel a másik szöveg.
+Definiálj egy függvényt, ami bekér egy szöveget, és visszaadja, hogy a szövegben hányszor szerepelnek a szóközök.
+Definiálj egy függvényt, ami bekér egy listát és egy számot, és visszaadja, hogy a szám megtalálható-e a listában.
+Definiálj egy függvényt, ami bekér egy szöveget, és visszaadja, hogy a szövegben hányszor szerepelnek az állóbetűk.
