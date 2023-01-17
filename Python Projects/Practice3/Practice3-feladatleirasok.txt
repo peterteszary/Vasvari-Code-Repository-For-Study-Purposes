@@ -1,7 +1,7 @@
-Definiálj egy függvényt, ami bekér egy diák jegyeit, és visszaadja a diák átlagjegyét.
-Definiálj egy függvényt, ami bekér egy termék árát és áfakulcsát, és visszaadja a termék végleges árát.
-Definiálj egy függvényt, ami bekér egy szöveget és egy betűt, és visszaadja hogy hányszor szerepel a szövegben a betű.
+Definiálj egy függvényt, ami bekér egy diák jegyeit, és visszaadja a diák átlagjegyét. - KÉSZ
+Definiálj egy függvényt, ami bekér egy termék árát és áfakulcsát, és visszaadja a termék végleges árát. - KÉSZ
+Definiálj egy függvényt, ami bekér egy szöveget és egy betűt, és visszaadja hogy hányszor szerepel a szövegben a betű. - KÉSZ
 
-Definiálj egy függvényt, ami bekér két számot, és megállapítja, hogy melyik szám a nagyobb.
-Definiálj egy függvényt, ami bekér egy számot, és megállapítja, hogy az páros vagy páratlan.
-Definiálj egy függvényt, ami bekér két számot, és megállapítja, hogy a két szám osztható-e egymással.
+Definiálj egy függvényt, ami bekér két számot, és megállapítja, hogy melyik szám a nagyobb. - KÉSZ
+Definiálj egy függvényt, ami bekér egy számot, és megállapítja, hogy az páros vagy páratlan. - KÉSZ
+Definiálj egy függvényt, ami bekér két számot, és megállapítja, hogy a két szám osztható-e egymással. - KÉSZ
