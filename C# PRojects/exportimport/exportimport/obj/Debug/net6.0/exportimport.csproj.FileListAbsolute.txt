@@ -1,0 +1,15 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\bin\Debug\net6.0\exportimport.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\bin\Debug\net6.0\exportimport.deps.json
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\bin\Debug\net6.0\exportimport.runtimeconfig.json
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\bin\Debug\net6.0\exportimport.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\bin\Debug\net6.0\exportimport.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.AssemblyInfoInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.AssemblyInfo.cs
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\refint\exportimport.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\exportimport.genruntimeconfig.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\exportimport\exportimport\obj\Debug\net6.0\ref\exportimport.dll
