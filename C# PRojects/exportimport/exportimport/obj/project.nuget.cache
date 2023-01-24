@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XxMBRqxw5kqXZ8qGrHgmAcfnOlj2PjKZECKkJl+AgrRJz0PHIxzhLVvqkB8njf6ctvg520PDiDpUsa9GyY8UIw==",
+  "dgSpecHash": "7cXsmOcSuTZxnh84OJ8tY2JWlvh62St3ojYSEYz0ptTYRAl56avj/PHqzpxCQwaF966nmX5d59R3GGF/1QGtqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bsze2tespet\\Documents\\GitHub\\Vasvari-Code-Repository-For-Study-Purposes\\C# PRojects\\exportimport\\exportimport\\exportimport.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/exportimport/exportimport/exportimport.csproj",
+  "expectedPackageFiles": [
+    "/home/peterteszary/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/peterteszary/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/peterteszary/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.13/microsoft.netcore.app.host.linux-x64.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

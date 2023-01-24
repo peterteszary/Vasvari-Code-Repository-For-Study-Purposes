@@ -8,32 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bsze2tespet\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/peterteszary/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bsze2tespet\\Documents\\GitHub\\Vasvari-Code-Repository-For-Study-Purposes\\C# PRojects\\exportimport\\exportimport\\exportimport.csproj",
+      "projectUniqueName": "/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/exportimport/exportimport/exportimport.csproj",
       "projectName": "exportimport",
-      "projectPath": "C:\\Users\\bsze2tespet\\Documents\\GitHub\\Vasvari-Code-Repository-For-Study-Purposes\\C# PRojects\\exportimport\\exportimport\\exportimport.csproj",
-      "packagesPath": "C:\\Users\\bsze2tespet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bsze2tespet\\Documents\\GitHub\\Vasvari-Code-Repository-For-Study-Purposes\\C# PRojects\\exportimport\\exportimport\\obj\\",
+      "projectPath": "/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/exportimport/exportimport/exportimport.csproj",
+      "packagesPath": "/home/peterteszary/.nuget/packages/",
+      "outputPath": "/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/exportimport/exportimport/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bsze2tespet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/peterteszary/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,12 +54,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
