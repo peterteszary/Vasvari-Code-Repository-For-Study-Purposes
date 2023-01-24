@@ -1,3 +1,5 @@
+import random
+
 versenyzok = []
 
 forras = open("pilotak.txt", encoding="utf-8")
@@ -32,3 +34,6 @@ print(" ". join(nevek), file = cel)
 #több sorba írja ki a fájlba
 for nev in nevek:
     print(nev, file = cel)
+
+veletlen = [i[0] for i in nevek]
+print("Véletlenszerűen írjon ki egy versenyzőt: ", random.choice(veletlen))
