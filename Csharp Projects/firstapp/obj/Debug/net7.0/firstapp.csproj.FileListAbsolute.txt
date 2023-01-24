@@ -1,0 +1,15 @@
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/bin/Debug/net7.0/firstapp
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/bin/Debug/net7.0/firstapp.deps.json
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/bin/Debug/net7.0/firstapp.runtimeconfig.json
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/bin/Debug/net7.0/firstapp.dll
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/bin/Debug/net7.0/firstapp.pdb
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.csproj.AssemblyReference.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.GeneratedMSBuildEditorConfig.editorconfig
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.AssemblyInfoInputs.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.AssemblyInfo.cs
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.csproj.CoreCompileInputs.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.dll
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/refint/firstapp.dll
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.pdb
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/firstapp.genruntimeconfig.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/Csharp Projects/firstapp/obj/Debug/net7.0/ref/firstapp.dll
