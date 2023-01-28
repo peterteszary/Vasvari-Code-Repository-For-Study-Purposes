@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elágazás</title>
+  </head>
+
+  <body>
+    <script>
+      let szam = Number(prompt("Kérek egy számot:"));
+      if (isNaN(szam)) {
+        //alert("Nem szám!");
+        document.write('<p class="hiba">Nem szám!</p>');
+      } else if (szam % 2 == 0) {
+        document.write(szam + ": páros<br>");
+      } else {
+        document.write(szam + ": páratlan<br>");
+      }
+    </script>
+  </body>
+</html>
