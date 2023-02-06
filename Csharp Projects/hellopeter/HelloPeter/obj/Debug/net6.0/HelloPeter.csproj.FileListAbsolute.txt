@@ -1,0 +1,15 @@
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\bin\Debug\net6.0\HelloPeter.exe
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\bin\Debug\net6.0\HelloPeter.deps.json
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\bin\Debug\net6.0\HelloPeter.runtimeconfig.json
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\bin\Debug\net6.0\HelloPeter.dll
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\bin\Debug\net6.0\HelloPeter.pdb
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.csproj.AssemblyReference.cache
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.AssemblyInfoInputs.cache
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.AssemblyInfo.cs
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.csproj.CoreCompileInputs.cache
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.dll
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\refint\HelloPeter.dll
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.pdb
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\HelloPeter.genruntimeconfig.cache
+c:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\Csharp Projects\hellopeter\HelloPeter\obj\Debug\net6.0\ref\HelloPeter.dll
