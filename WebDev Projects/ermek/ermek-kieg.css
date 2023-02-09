@@ -1,0 +1,24 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+
+td:nth-child(2) {
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+
+td:last-of-type,
+tr:first-child>th:last-of-type {
+    background-color: black;
+    color: white;
+}
