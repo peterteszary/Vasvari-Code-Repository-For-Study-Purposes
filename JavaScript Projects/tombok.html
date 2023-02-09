@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Változók</title>
+  </head>
+
+  <body>
+    <script>
+      let a = 5; // number
+      let b = 6; // number
+      let c = "7" // string
+      console.log(typeof a, " ", typeof c)
+      a = parseInt(prompt("Kérek egy számot! "));
+      document.write(a + " " + typeof a + "<br>");
+      b = parseFloat(promt("Kérek egy valós számot:"));
+      document.write(b + " " + typeof b + "<br>");
+      c = Number(prompt("Kérek egy valós számot"));
+      document.write(c + " " + typeof c + "<br>");
+      //NaN - Not a Number
+      if(isNaN(c)){
+        document.write("Hibás adat<br>");
+      }
+    </script>
+  </body>
+</html>
+ 
