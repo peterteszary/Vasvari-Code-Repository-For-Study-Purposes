@@ -1,0 +1,8 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\bin\Debug\diak_strukt.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\bin\Debug\diak_strukt.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\bin\Debug\diak_strukt.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\obj\Debug\diak_strukt.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\obj\Debug\diak_strukt.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\obj\Debug\diak_strukt.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\obj\Debug\diak_strukt.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\diak_strukt\diak_strukt\obj\Debug\diak_strukt.pdb
