@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kétdimenziós tömb főátló összege</title>
+	<script>
+		window.onload = function() {
+			var n = 5; // N értéke
+			var matrix = []; // kétdimenziós tömb inicializálása
+			var sum = 0; // főátló összege
+
+			// véletlenszám generálás és táblázat feltöltése
+			var table = document.getElementById("matrix");
+			for (var i = 0; i < n; i++) {
+				var row = table.insertRow(i);
+				matrix[i] = [];
+				for (var j = 0; j < n; j++) {
+					matrix[i][j] = Math.floor(Math.random() * 20) + 1;
+					var cell = row.insertCell(j);
+					cell.innerHTML = matrix[i][j];
+					if (i == j) { // ha a főátlón vagyunk
+						sum += matrix[i][j];
+					}
+				}
+			}
+
+			// főátló összeg kiírása
+			var result = document.getElementById("result");
+			result.innerHTML = "Főátló összege: " + sum;
+		};
+	</script>
+</head>
+<body>
+	<table id="matrix"></table>
+	<div id="result"></div>
+</body>
+</html>
