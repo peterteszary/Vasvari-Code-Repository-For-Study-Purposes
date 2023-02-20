@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C_sharp_files_two/Program.cs">
+    <Files>
+      <File FileName="../C_sharp_files/C_sharp_files/Program.cs" Line="35" Column="1" />
+      <File FileName="C_sharp_files_two/Program.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="C_sharp_files_two" expanded="True">
+            <Node name="C_sharp_files_two" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.C__sharp__files__two FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

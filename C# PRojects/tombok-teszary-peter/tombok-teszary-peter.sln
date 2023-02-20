@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tombok-teszary-peter", "tombok-teszary-peter\tombok-teszary-peter.csproj", "{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}.Debug|x86.ActiveCfg = Debug|x86
+		{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}.Debug|x86.Build.0 = Debug|x86
+		{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}.Release|x86.ActiveCfg = Release|x86
+		{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

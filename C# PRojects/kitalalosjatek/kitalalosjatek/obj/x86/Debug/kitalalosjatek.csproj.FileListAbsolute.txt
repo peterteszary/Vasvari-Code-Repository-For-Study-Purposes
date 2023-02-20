@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/bin/Debug/kitalalosjatek.exe
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/bin/Debug/kitalalosjatek.pdb
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/obj/x86/Debug/kitalalosjatek.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/obj/x86/Debug/kitalalosjatek.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/obj/x86/Debug/kitalalosjatek.exe
+/home/peterteszary/Projects/kitalalosjatek/kitalalosjatek/obj/x86/Debug/kitalalosjatek.pdb

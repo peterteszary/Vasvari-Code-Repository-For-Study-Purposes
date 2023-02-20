@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9DBC8CAA-BF7C-49B4-AD82-EC29CB2EC9B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tomb-teszary-peter/Program.cs">
+    <Files>
+      <File FileName="tomb-teszary-peter/Program.cs" Line="20" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tomb-teszary-peter" expanded="True">
+            <Node name="tomb-teszary-peter" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.tomb-teszary-peter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

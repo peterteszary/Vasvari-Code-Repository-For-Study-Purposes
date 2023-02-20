@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{67C16FAC-8AEA-46B4-AF4B-4699C6DF3C1C}|Default">
+  <MonoDevelop.Ide.ItemProperties.tombok-teszary-peter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tombok-teszary-peter/Program.cs">
+    <Files>
+      <File FileName="tombok-teszary-peter/Program.cs" Line="26" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tombok-teszary-peter" expanded="True">
+            <Node name="tombok-teszary-peter" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

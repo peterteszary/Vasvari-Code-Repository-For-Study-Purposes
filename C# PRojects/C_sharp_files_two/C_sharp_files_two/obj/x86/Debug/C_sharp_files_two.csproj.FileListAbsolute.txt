@@ -1,0 +1,6 @@
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/bin/Debug/C_sharp_files_two.exe
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/bin/Debug/C_sharp_files_two.pdb
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/obj/x86/Debug/C_sharp_files_two.csproj.AssemblyReference.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/obj/x86/Debug/C_sharp_files_two.csproj.CoreCompileInputs.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/obj/x86/Debug/C_sharp_files_two.exe
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/C_sharp_files_two/C_sharp_files_two/obj/x86/Debug/C_sharp_files_two.pdb

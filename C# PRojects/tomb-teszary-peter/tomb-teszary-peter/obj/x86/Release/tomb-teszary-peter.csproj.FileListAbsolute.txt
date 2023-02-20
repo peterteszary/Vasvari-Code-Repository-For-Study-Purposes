@@ -1,0 +1,3 @@
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/bin/Release/tomb-teszary-peter.exe
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Release/tomb-teszary-peter.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Release/tomb-teszary-peter.exe

@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/obj/x86/Debug/tombok-teszary-peter.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/obj/x86/Debug/tombok-teszary-peter.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/bin/Debug/tombok-teszary-peter.exe
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/bin/Debug/tombok-teszary-peter.pdb
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/obj/x86/Debug/tombok-teszary-peter.exe
+/home/peterteszary/Projects/tombok-teszary-peter/tombok-teszary-peter/obj/x86/Debug/tombok-teszary-peter.pdb

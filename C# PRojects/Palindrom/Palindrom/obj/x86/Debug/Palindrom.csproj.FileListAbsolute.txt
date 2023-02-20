@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/Palindrom/Palindrom/bin/Debug/Palindrom.exe
+/home/peterteszary/Projects/Palindrom/Palindrom/bin/Debug/Palindrom.pdb
+/home/peterteszary/Projects/Palindrom/Palindrom/obj/x86/Debug/Palindrom.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/Palindrom/Palindrom/obj/x86/Debug/Palindrom.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/Palindrom/Palindrom/obj/x86/Debug/Palindrom.exe
+/home/peterteszary/Projects/Palindrom/Palindrom/obj/x86/Debug/Palindrom.pdb

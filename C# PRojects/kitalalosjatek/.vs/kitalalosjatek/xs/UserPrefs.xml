@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{21F12133-80CE-4D7E-A61A-B57F7F908A48}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../HelloWorld/HelloWorld.cs">
+    <Files>
+      <File FileName="kitalalosjatek/Program.cs" Line="63" Column="2" />
+      <File FileName="../HelloWorld/HelloWorld.cs" Line="1" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="kitalalosjatek" expanded="True">
+            <Node name="kitalalosjatek" expanded="True">
+              <Node name="HelloWorld.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.kitalalosjatek PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
