@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_sharp_files_two", "C_sharp_files_two\C_sharp_files_two.csproj", "{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}.Debug|x86.ActiveCfg = Debug|x86
+		{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}.Debug|x86.Build.0 = Debug|x86
+		{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}.Release|x86.ActiveCfg = Release|x86
+		{D2D4586C-03B8-4D6A-BB83-DB16DC5893F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

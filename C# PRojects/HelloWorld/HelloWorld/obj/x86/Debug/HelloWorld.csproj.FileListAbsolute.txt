@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe
+/home/peterteszary/Projects/HelloWorld/HelloWorld/bin/Debug/HelloWorld.pdb
+/home/peterteszary/Projects/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.exe
+/home/peterteszary/Projects/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.pdb

@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/bin/Debug/tomb-teszary-peter.exe
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/bin/Debug/tomb-teszary-peter.pdb
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Debug/tomb-teszary-peter.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Debug/tomb-teszary-peter.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Debug/tomb-teszary-peter.exe
+/home/peterteszary/Projects/tomb-teszary-peter/tomb-teszary-peter/obj/x86/Debug/tomb-teszary-peter.pdb

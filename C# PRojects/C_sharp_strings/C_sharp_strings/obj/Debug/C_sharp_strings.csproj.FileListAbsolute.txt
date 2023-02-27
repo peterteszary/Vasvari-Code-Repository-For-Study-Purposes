@@ -1,0 +1,14 @@
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.exe.config
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.exe
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.pdb
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.csprojAssemblyReference.cache
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.csproj.CoreCompileInputs.cache
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.exe
+C:/Users/vyhna/source/repos/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.pdb
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.exe.config
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.exe
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/bin/Debug/C_sharp_strings.pdb
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.exe
+/home/peterteszary/Projects/C_sharp_strings/C_sharp_strings/obj/Debug/C_sharp_strings.pdb

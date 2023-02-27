@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/bin/Debug/C_sharp_files.exe
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/bin/Debug/C_sharp_files.pdb
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/obj/x86/Debug/C_sharp_files.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/obj/x86/Debug/C_sharp_files.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/obj/x86/Debug/C_sharp_files.exe
+/home/peterteszary/Projects/C_sharp_files/C_sharp_files/obj/x86/Debug/C_sharp_files.pdb

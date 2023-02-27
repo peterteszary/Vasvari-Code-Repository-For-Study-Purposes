@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrom", "Palindrom\Palindrom.csproj", "{EAA0D376-9557-496C-999D-EEF7EC7F49CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA0D376-9557-496C-999D-EEF7EC7F49CF}.Debug|x86.ActiveCfg = Debug|x86
+		{EAA0D376-9557-496C-999D-EEF7EC7F49CF}.Debug|x86.Build.0 = Debug|x86
+		{EAA0D376-9557-496C-999D-EEF7EC7F49CF}.Release|x86.ActiveCfg = Release|x86
+		{EAA0D376-9557-496C-999D-EEF7EC7F49CF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

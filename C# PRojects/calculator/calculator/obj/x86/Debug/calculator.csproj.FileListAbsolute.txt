@@ -1,0 +1,6 @@
+/home/peterteszary/Projects/calculator/calculator/bin/Debug/calculator.exe
+/home/peterteszary/Projects/calculator/calculator/bin/Debug/calculator.pdb
+/home/peterteszary/Projects/calculator/calculator/obj/x86/Debug/calculator.csproj.AssemblyReference.cache
+/home/peterteszary/Projects/calculator/calculator/obj/x86/Debug/calculator.csproj.CoreCompileInputs.cache
+/home/peterteszary/Projects/calculator/calculator/obj/x86/Debug/calculator.exe
+/home/peterteszary/Projects/calculator/calculator/obj/x86/Debug/calculator.pdb
