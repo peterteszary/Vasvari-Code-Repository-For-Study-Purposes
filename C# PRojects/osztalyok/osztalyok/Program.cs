@@ -42,6 +42,22 @@ namespace osztalyok
 
         
     }
+
+    class Diák
+    {
+        public string Név;
+        public int Évfolyam;
+        public void Kiír()
+        {
+            Console.WriteLine("Név: " + this.Név);
+            Console.WriteLine("Évfolyam " + this.Évfolyam);
+        }
+        static public void Kiír2(Diák d)
+        {
+            Console.WriteLine("Név: " + d.Név);
+            Console.WriteLine("Évfolyam " + d.Évfolyam);
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -58,10 +74,18 @@ namespace osztalyok
 
             Console.WriteLine(e3.Lakhely);*/
 
-            Kutya k = new Kutya();
-            k.Játék();
+            /*Kutya k = new Kutya();
+            k.Játék();*/
+            Diák d = new Diák();
+            d.Név = "József";
+            d.Évfolyam = 13;
+            d.Kiír(); // példánymetódus
+
+
 
             Console.ReadKey();
+            Diák.Kiír2(d); // Osztálymetódus / statikus metódus
+
         }
     }
 }
