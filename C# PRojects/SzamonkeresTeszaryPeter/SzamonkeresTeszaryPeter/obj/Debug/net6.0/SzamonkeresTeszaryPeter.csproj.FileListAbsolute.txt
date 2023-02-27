@@ -1,0 +1,15 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.AssemblyInfoInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.AssemblyInfo.cs
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\bin\Debug\net6.0\SzamonkeresTeszaryPeter.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\bin\Debug\net6.0\SzamonkeresTeszaryPeter.deps.json
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\bin\Debug\net6.0\SzamonkeresTeszaryPeter.runtimeconfig.json
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\bin\Debug\net6.0\SzamonkeresTeszaryPeter.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\bin\Debug\net6.0\SzamonkeresTeszaryPeter.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\refint\SzamonkeresTeszaryPeter.dll
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\SzamonkeresTeszaryPeter.genruntimeconfig.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamonkeresTeszaryPeter\SzamonkeresTeszaryPeter\obj\Debug\net6.0\ref\SzamonkeresTeszaryPeter.dll
