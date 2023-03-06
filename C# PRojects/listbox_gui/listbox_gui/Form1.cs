@@ -85,7 +85,14 @@ namespace listbox_gui
             {
                 lista_szam.Add(Convert.ToInt32(lista.Items[i]));
             }
+            lista.Items.Clear();
             lista_szam.Sort();
+            foreach (var item in lista_szam) 
+            {
+                lista.Items.Add(item);
+            }
+
+
             lista.Sorted = true;
         }
     }
