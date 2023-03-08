@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="C_sharp_files_two/Program.cs">
     <Files>
       <File FileName="../C_sharp_files/C_sharp_files/Program.cs" Line="35" Column="1" />
-      <File FileName="C_sharp_files_two/Program.cs" Line="35" Column="1" />
+      <File FileName="C_sharp_files_two/Program.cs" Line="39" Column="176" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.ItemProperties.C__sharp__files__two FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.C__sharp__files__two PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

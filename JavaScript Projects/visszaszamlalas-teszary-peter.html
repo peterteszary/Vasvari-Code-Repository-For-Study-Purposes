@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visszaszámláló és robbanás - Teszáry Péter</title>
+	<style>
+		body {
+			text-align: center;
+		}
+		h1 {
+			font-size: 72px;
+			margin-top: 100px;
+		}
+		img {
+			display: none;
+			margin: 50px auto 0;
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="countdown">10</h1>
+	<img id="explosion" src="https://media.giphy.com/media/oZFDGzlBJg4Hm/giphy.gif">
+	<script>
+		// Visszaszámláló beállítása
+		var count = 10;
+		var countdown = document.getElementById("countdown");
+		var countdownInterval = setInterval(function() {
+			count--;
+			countdown.innerHTML = count;
+			if (count === 0) {
+				clearInterval(countdownInterval);
+				countdown.style.display = "none";
+				document.getElementById("explosion").style.display = "block";
+			}
+		}, 1000);
+	</script>
+</body>
+</html>
