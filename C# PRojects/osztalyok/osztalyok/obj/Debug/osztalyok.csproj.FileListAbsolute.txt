@@ -1,0 +1,8 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\bin\Debug\osztalyok.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\bin\Debug\osztalyok.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\bin\Debug\osztalyok.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\obj\Debug\osztalyok.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\obj\Debug\osztalyok.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\obj\Debug\osztalyok.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\obj\Debug\osztalyok.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osztalyok\osztalyok\obj\Debug\osztalyok.pdb

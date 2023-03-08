@@ -1,0 +1,11 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\bin\Debug\listbox_gui.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\bin\Debug\listbox_gui.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\bin\Debug\listbox_gui.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.Properties.Resources.resources
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.csproj.GenerateResource.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\listbox_gui\listbox_gui\obj\Debug\listbox_gui.szamlistaprogram.resources

@@ -1,0 +1,11 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\bin\Debug\elso_gui.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\bin\Debug\elso_gui.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\bin\Debug\elso_gui.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.Properties.Resources.resources
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.csproj.GenerateResource.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\elso_gui\elso_gui\obj\Debug\elso_gui.Form1.resources

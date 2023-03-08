@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elso_gui", "elso_gui\elso_gui.csproj", "{27F117A4-23B3-4872-836C-66D348DAF43B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F117A4-23B3-4872-836C-66D348DAF43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F117A4-23B3-4872-836C-66D348DAF43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F117A4-23B3-4872-836C-66D348DAF43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F117A4-23B3-4872-836C-66D348DAF43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF4D1CD-6BB4-41B6-9F3B-F2DDAABE0B4E}
+	EndGlobalSection
+EndGlobal
