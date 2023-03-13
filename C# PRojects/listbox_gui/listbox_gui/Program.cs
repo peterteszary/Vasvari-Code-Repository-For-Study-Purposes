@@ -16,7 +16,7 @@ namespace listbox_gui
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new szamlistaprogram());
+            Application.Run(new listaexport());
         }
     }
 }

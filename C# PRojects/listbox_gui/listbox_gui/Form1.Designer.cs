@@ -1,6 +1,6 @@
 ﻿namespace listbox_gui
 {
-    partial class szamlistaprogram
+    partial class listaexport
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,10 @@
             this.torlesgomb = new System.Windows.Forms.Button();
             this.listatorlesegomb = new System.Windows.Forms.Button();
             this.listarendezesegomb = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listaimport = new System.Windows.Forms.Button();
+            this.fileexport = new System.Windows.Forms.Button();
+            this.fileimport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -64,7 +68,7 @@
             // 
             this.valasztottelem.AutoSize = true;
             this.valasztottelem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.valasztottelem.Location = new System.Drawing.Point(266, 139);
+            this.valasztottelem.Location = new System.Drawing.Point(338, 88);
             this.valasztottelem.Name = "valasztottelem";
             this.valasztottelem.Size = new System.Drawing.Size(206, 24);
             this.valasztottelem.TabIndex = 2;
@@ -75,9 +79,9 @@
             // 
             this.elemhozzaadgomb.Enabled = false;
             this.elemhozzaadgomb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.elemhozzaadgomb.Location = new System.Drawing.Point(270, 259);
+            this.elemhozzaadgomb.Location = new System.Drawing.Point(270, 150);
             this.elemhozzaadgomb.Name = "elemhozzaadgomb";
-            this.elemhozzaadgomb.Size = new System.Drawing.Size(327, 73);
+            this.elemhozzaadgomb.Size = new System.Drawing.Size(327, 40);
             this.elemhozzaadgomb.TabIndex = 3;
             this.elemhozzaadgomb.Text = "Szám hozzáadása";
             this.elemhozzaadgomb.UseVisualStyleBackColor = true;
@@ -87,7 +91,7 @@
             // 
             this.szamhozzaad.Enabled = false;
             this.szamhozzaad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.szamhozzaad.Location = new System.Drawing.Point(270, 205);
+            this.szamhozzaad.Location = new System.Drawing.Point(270, 115);
             this.szamhozzaad.Name = "szamhozzaad";
             this.szamhozzaad.Size = new System.Drawing.Size(323, 29);
             this.szamhozzaad.TabIndex = 4;
@@ -98,9 +102,9 @@
             // 
             this.torlesgomb.Enabled = false;
             this.torlesgomb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.torlesgomb.Location = new System.Drawing.Point(270, 353);
+            this.torlesgomb.Location = new System.Drawing.Point(270, 196);
             this.torlesgomb.Name = "torlesgomb";
-            this.torlesgomb.Size = new System.Drawing.Size(327, 73);
+            this.torlesgomb.Size = new System.Drawing.Size(327, 37);
             this.torlesgomb.TabIndex = 5;
             this.torlesgomb.Text = "Elem törlése";
             this.torlesgomb.UseVisualStyleBackColor = true;
@@ -110,9 +114,9 @@
             // 
             this.listatorlesegomb.Enabled = false;
             this.listatorlesegomb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.listatorlesegomb.Location = new System.Drawing.Point(270, 448);
+            this.listatorlesegomb.Location = new System.Drawing.Point(270, 239);
             this.listatorlesegomb.Name = "listatorlesegomb";
-            this.listatorlesegomb.Size = new System.Drawing.Size(327, 73);
+            this.listatorlesegomb.Size = new System.Drawing.Size(327, 38);
             this.listatorlesegomb.TabIndex = 6;
             this.listatorlesegomb.Text = "Lista törlése";
             this.listatorlesegomb.UseVisualStyleBackColor = true;
@@ -122,19 +126,69 @@
             // 
             this.listarendezesegomb.Enabled = false;
             this.listarendezesegomb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.listarendezesegomb.Location = new System.Drawing.Point(270, 543);
+            this.listarendezesegomb.Location = new System.Drawing.Point(270, 283);
             this.listarendezesegomb.Name = "listarendezesegomb";
-            this.listarendezesegomb.Size = new System.Drawing.Size(327, 73);
+            this.listarendezesegomb.Size = new System.Drawing.Size(327, 37);
             this.listarendezesegomb.TabIndex = 7;
             this.listarendezesegomb.Text = "Lista rendezése";
             this.listarendezesegomb.UseVisualStyleBackColor = true;
             this.listarendezesegomb.Click += new System.EventHandler(this.listarendezesegomb_Click);
             // 
-            // szamlistaprogram
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(270, 445);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(271, 37);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Lista exportálása";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // listaimport
+            // 
+            this.listaimport.Enabled = false;
+            this.listaimport.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.listaimport.Location = new System.Drawing.Point(270, 488);
+            this.listaimport.Name = "listaimport";
+            this.listaimport.Size = new System.Drawing.Size(271, 37);
+            this.listaimport.TabIndex = 9;
+            this.listaimport.Text = "Lista importálása";
+            this.listaimport.UseVisualStyleBackColor = true;
+            // 
+            // fileexport
+            // 
+            this.fileexport.Enabled = false;
+            this.fileexport.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.fileexport.Location = new System.Drawing.Point(547, 445);
+            this.fileexport.Name = "fileexport";
+            this.fileexport.Size = new System.Drawing.Size(46, 37);
+            this.fileexport.TabIndex = 10;
+            this.fileexport.Text = "...";
+            this.fileexport.UseVisualStyleBackColor = true;
+            this.fileexport.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // fileimport
+            // 
+            this.fileimport.Enabled = false;
+            this.fileimport.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.fileimport.Location = new System.Drawing.Point(547, 488);
+            this.fileimport.Name = "fileimport";
+            this.fileimport.Size = new System.Drawing.Size(46, 37);
+            this.fileimport.TabIndex = 11;
+            this.fileimport.Text = "...";
+            this.fileimport.UseVisualStyleBackColor = true;
+            // 
+            // listaexport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 630);
+            this.Controls.Add(this.fileimport);
+            this.Controls.Add(this.fileexport);
+            this.Controls.Add(this.listaimport);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listarendezesegomb);
             this.Controls.Add(this.listatorlesegomb);
             this.Controls.Add(this.torlesgomb);
@@ -143,7 +197,7 @@
             this.Controls.Add(this.valasztottelem);
             this.Controls.Add(this.generalas);
             this.Controls.Add(this.lista);
-            this.Name = "szamlistaprogram";
+            this.Name = "listaexport";
             this.Text = "Számlista";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,6 +214,10 @@
         private System.Windows.Forms.Button torlesgomb;
         private System.Windows.Forms.Button listatorlesegomb;
         private System.Windows.Forms.Button listarendezesegomb;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button listaimport;
+        private System.Windows.Forms.Button fileexport;
+        private System.Windows.Forms.Button fileimport;
     }
 }
 
