@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace listbox_gui
 {
-    public partial class szamlistaprogram : Form
+    public partial class listaexport : Form
     {
-        public szamlistaprogram()
+        public listaexport()
         {
             InitializeComponent();
         }
@@ -94,6 +94,16 @@ namespace listbox_gui
 
 
             lista.Sorted = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

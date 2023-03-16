@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace listbox_gui
+namespace szovegszerkeszto
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace listbox_gui
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new listaexport());
+            Application.Run(new Form1());
         }
     }
 }
