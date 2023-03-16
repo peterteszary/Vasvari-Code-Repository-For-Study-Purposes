@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Űrlap</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="urlap.js"></script>
 </head>
-<body onload="init">
-    <div class="container-fluid bg-info">
-        <h1 class="text-center">Ürlapok kezelése</h1>
-        <form class="w-50 mx-auto" method="get">
-           
-            <input class="form-control my-1" type="text" id="name" placeholder="Név" name="name">
-            <input class="form-control my-1" type="password" id="pwd" placeholder="Jelszó" name="pwd">
-            <input class="form-control my-1" type="email" id="email" placeholder="email" name="email">
 
+<body onload="init()">
+
+    <div class="container-fluid bg-info">
+        <h1 class="text-center">Űrlapok kezelése</h1>
+        <form class="w-50 mx-auto" method="get">
+
+            
+                <input class="form-control my-1" type="text" id="name" placeholder="Teszt Elek" name="name">
+
+                <input class="form-control my-1" type="password" name="pwd" id="pwd" placeholder="Jelszó">
+
+                <input class="form-control my-1" type="email" name="email" id="email" placeholder="postafiok@domain.hu">
+            
             <select class="form-control my-1" name="tipus" id="tipus">
                 <option value="-1">Válasszon</option>
-                <option value="-1">Megye</option>
-                <option value="-1">Város</option>
+                <option>főváros</option>
+                <option>MJV</option>
+                <option>város</option>
+                <option>község</option>
             </select>
 
-            <input class="form-control my-1" type="date" id="datum" name="datum">
-            <input class="form-control my-1" type="time" id="ido" name="ido">
+            <input class="form-control my-1" type="date" name="datum" id="datum">
+            <input class="form-control my-1" type="time" name="ido" id="ido">
 
             <label class="form-label" for="penznem">Pénznem: </label>
-            <p><input type="radio" name="penznem" value="HUF"> HUF</p>
-            <p><input type="radio" name="penznem" value="EUR"> EUR</p>
-            <p><input type="radio" name="penznem" value="USD"> USD</p>
+            <p><input type="radio" name="penznem" id="penznem" value="huf" onchange="penz(this)"> HUF</p>
+            <p><input type="radio" name="penznem" id="penznem" value="eur" onchange="penz(this)"> EUR</p>
+            <p><input type="radio" name="penznem" id="penznem" value="usd" onchange="penz(this)"> USD</p>
 
-            <textarea class="w-100" name="leiras" id="leiras" cols="30" rows="3"> Rövid leírás</textarea>
+            <label for="hobbi">Hobbi</label>
+            <p><input type="checkbox" name="hobbi" id="hobbi"> Futás</p>
+            <p><input type="checkbox" name="hobbi" id="hobbi"> Túrázás</p>
+            <p><input type="checkbox" name="hobbi" id="hobbi"> Olvasás</p>
 
-            <p><input type="checkbox" name="aszf" id="aszf"> ÁSZF</p>
+            <textarea class="form-control" name="leiras" id="leiras" cols="30" rows="3">Rövid leírás</textarea>
 
-            <input class="form-control btn btn-success" type="submit" disabled>
-            <input class="form-control btn btn-danger" type="reset">
-        </label>
+            <label for="aszf">Elfogadom az ÁSZF-t</label>
+            <input type="checkbox" id="aszf" name="aszf">
+            
+            <input class="form-control btn btn-success my-1" type="submit" disabled>
+            <input class="form-control btn btn-danger my-1" type="reset" value="Törlés">
+        </form>
     </div>
 </body>
+
 </html>
