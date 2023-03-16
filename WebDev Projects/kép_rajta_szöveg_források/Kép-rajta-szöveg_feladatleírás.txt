@@ -1,0 +1,33 @@
+﻿Feladatok az átmenetek alkalmazásához
+
+A tavasz.jpg képfájl felhasználásával készítsünk olyan oldalt, amelyen
+- alaphelyzetben csak a kép legyen látható a nézetablaknak egy adott arányú méretében,
+- a képre történő rámutatáskor valamilyen átmenet alkalmazásával váljon láthatóvá a képre nyílva egy szöveg,
+- a megjelenő szöveg ugyanakkora felületet fedjen le, mint amekkora területet lefed alaphelyzetben a kép.
+
+Átmeneti típusok:
+
+1.Rámutatáskor azonnal jelenjen meg a lefedő elem.
+
+2.Adott oldaltól a másik oldalig
+- fentről lefelé (azaz a kép tetejéről a kép aljáig) nyílik le
+- lentről felfelé (azaz a kép aljáról a kép tetejéig) nyílik fel
+- balról jobbra (azaz a kép bal oldalától a kép jobb oldaláig) nyílik ki
+- jobbról balra (azaz a kép jobb oldalától a kép bal oldaláig) nyílik ki
+a szöveget tartalmazó elem
+
+3.Sarokból sarokba
+- a bal felső sarokból a jobb alsó sarokba
+- a jobb felső sarokból a bal alsó sarokba
+- a bal alsó sarokból a jobb felső sarokba
+- a jobb alsó sarokból a bal felső sarokba
+nyílik ki a szöveget tartalmazó elem
+
+4.Zoom
+- a kép közepéből a négy sarok felé azonos mértékben
+   (nagyítódjon az lefedő elem vagy egyre nagyobb része legyen látható)
+- forgatással és nagyítással töltse ki a felületet
+- a kép széleitől a kép közepe felé azonos mértékben vagy úgy, hogy a szövegelem csak később növekedjen meg / legyen megfelelő átlátszóságú (olvashatóságú)
+jeleníti meg a szöveget tartalmazó elemet
+
+5.Kétirányú - függönyszerű nyitás vagy becsukás, vízszintesen vagy függőlegesen

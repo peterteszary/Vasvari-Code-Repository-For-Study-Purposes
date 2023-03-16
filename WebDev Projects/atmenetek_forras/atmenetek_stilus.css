@@ -1,0 +1,130 @@
+/* beállítások az oldal elején lévő mintapéldákhoz */
+
+
+#pl-1 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(226, 226, 62);
+    color: rgb(10, 75, 10);
+    margin: 10px;   
+}
+
+#pl-2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(193, 235, 193);
+    color: rgb(10, 75, 10);
+    margin: 10px; 
+    transition-property: all;
+    transition-duration: 5s; 
+}
+
+#pl-1,#pl-2 { display: inline-block;}
+
+#pl-1:hover {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(129, 6, 6);
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 200px;
+    border-radius: 50px;   
+}
+
+#pl-2:hover {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(148, 8, 94);
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    font-variant: small-caps;
+    line-height: 200px;
+    border-radius: 30px 50px 670px 80px; 
+}
+
+.tul {
+    font-weight: bold;
+    color: red;
+}
+
+.pl {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80%;
+}
+
+.kiemelt {
+    font-style: italic;
+    font-weight: bold;
+    background-color:yellow;
+}
+
+ul, ul li {
+    margin: 5px 0;
+}
+
+.szint {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	font-family: 'Courier New';
+}
+
+
+/* gyakorló feladathoz */
+
+.feladat {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-style: italic;
+}
+
+.blokk {
+	width: 300px;
+	height: 150px;
+	border: 5px solid black;
+    background-color: red;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+/*méretét, változtassuk meg a kitöltőszínét és töröljük a szegélyét eltérő időtartam alatt*/
+#tr-1 {
+    transition-property: width, height, background-color, border-width;
+    transition-duration: 3s, 2s, 5s, 1s;
+}
+
+#tr-1:hover {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-width: 0; 
+}
+
+/* a virágos rétet mutató képet rámutatáskor nagyítsuk ki és kerekítsük le a széleit */
+
+#tr-2 {
+   width: 200px;
+   transition-duration: 5s;
+}
+
+#tr-2:hover {
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+/* Formázzuk meg a blokkot úgy, hogy a hosszmérete a kitöltse a képernyő teljes szélességét, de közben váltson másmilyen színnel kitöltöttre úgy, hogy a szélességet tíz, a szín váltását 5 másodperc alatt valósítsa meg. Időzítsük úgy a műveletet, hogy rámutatás után a szélesség változtatása 3, a szín módosulása 1 másodperc múlva induljon el és mindkét esetben egyenletes sebességű legyen a változtatás. */
+
+#tr-3:hover {
+	width: 100%;
+	background-color: yellow;
+	transition-property: width, background-color;
+	transition-duration: 10s, 5s;
+	transition-timing-function: linear, linear;
+	transition-delay: 3s, 1s;
+}
+

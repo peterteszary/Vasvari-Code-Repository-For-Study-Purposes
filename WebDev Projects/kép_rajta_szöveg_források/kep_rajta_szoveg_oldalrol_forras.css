@@ -1,0 +1,82 @@
+* { box-sizing: border-box; }
+
+.kulso { width: 80%; position: relative; margin: auto; }
+
+
+
+img { width: 100%; height: auto; display: block; }
+
+.kozos {
+    background-color:darkgreen;
+    color: black;
+    position: absolute;
+    overflow: hidden;
+     }
+
+.szoveg {
+    margin: 0;
+    text-align: center;
+    font-size: 120%;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); }
+
+.sz { background-color: white; color: green; }
+
+.fentrol_le {
+    top: 0; left: 0;
+    height: 0;
+    width: 100%;
+    transition: height 5s;
+}
+
+.kulso:hover .fentrol_le{
+    height: 100%;
+}
+
+.lentrol_fel {
+    top: 100%;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition-property: top, height;
+    transition-duration: 5s;
+}
+
+.kulso:hover .lentrol_fel{
+    top: 0;
+    height: 100%;
+}
+
+.balrol_jobbra {
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    transition:  all 5s;
+}
+
+.kulso:hover .balrol_jobbra{
+    width: 100%;
+   
+}
+
+.jobbrol_balra {
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    transition:  all 5s;
+}
+
+.kulso:hover .jobbrol_balra{
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 100%;
+    transition:  all 5s;
+   
+}
+
