@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+
+.kulso { width: 80%; position: relative; margin: auto; }
+
+img { width: 100%; height: auto; display: block; }
+
+.kozos {
+    background-color:darkgreen;
+    color: black;
+    position: absolute; }
+
+.kulso .felirat { 
+    text-align: center; color: white;
+    width: 100%; height: 100%;
+}
+
+.szoveg {
+    margin: 0;
+    text-align: center;
+    font-size: 120%;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); }
+
+/* függőleges összecsukódás középre:
+    - a fenti elem felül van és lefelé nyílik 50% magasságig
+    - a lenti elem alul van és felfelé nyílik 50% magasságig */
+
+
+/* függőleges szétnyitás fel és lefelé irányban:
+    - a felső elem függőlegesen középen van és felfelé nyílik ki a tetejéig
+    - az alsó elem függőlegesen középen van és lefelé nyílik ki az aljáig */
+
+
+/* vízszintes összecsukódás középre:
+    - a bal elem a bal szélen van és jobbra nyílik a szélessége 50%-ig
+    - a job elem a jobb szélen van és balra nyílik a szélesség 50%-ig */
+
+
+/* vízszintes szétnyitás bal és jobb irányban:
+    - a bal elem vízszintesen középen van és balra nyílik a bal szélig
+    - a jobb elem is vízszintesen középen van és jobbra nyílik a jobb szélig*/
+
+
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\bin\Debug\szovegszerkeszto.exe.config
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\bin\Debug\szovegszerkeszto.exe
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\bin\Debug\szovegszerkeszto.pdb
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.Form1.resources
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.Properties.Resources.resources
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.exe
+C:\Users\Teszáry Brigi\source\repos\szovegszerkeszto\obj\Debug\szovegszerkeszto.pdb

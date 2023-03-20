@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Átmenetek</title>
+    <link rel="stylesheet" href="atmenetek_stilus.css">
+</head>
+
+<body>
+    <h1>Az átmenet (transition)</h1>
+
+    <p>Kezdő példák:</p>
+    <div id="pl-1">Mutass az 1. elemre!</div>
+    <div id="pl-2">Mutass a 2. elemre</div>
+
+    <h2>Az átmenetekkel kapcsolatos általános információk</h2>
+
+    <p><strong>A :hover vagy az :active álosztályokkal létrehozott hirtelen ugrásszerű változások folyamatos átmenetekké alakíthatók a transition tulajdonsággal. </strong> <span class="kiemelt">Az átmenetek (transitions) olyan prezentációs effekteket jelentenek, amelyek alkalmazása során egyes tulajdonságok az idő függvényében folyamatosan átmennek egy állapotból (értékből) egy másik állapotba (értékbe).</span> Az átmenet végi állapot természetesen megegyezik a hirtelen átmenetnél kapottal (tehát ha nem használjuk a transition tulajdonságot). Az állapot megszűntével az alakzat a folyamatos átmenet tükörképeként visszaalakul a kiinduló állapotba.</p>
+
+    <p>Az átmenetek defniálásához két kötelezően megadandó (mi változik és mennyi idő alatt) és két opcinális paraméter (késleltetés és időzítés) áll a rendelkezésünkre.</p>
+
+    <p>További információk: <a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">w3schools CSS Transition</a></p>
+
+    <h3>Kötelezően megadandó tulajdonságok</h3>
+
+    <p><strong>Kötelezően megadandó</strong> a <span class="tul">transition-property</span> (a változáson áteső tulajdonság vagy a tulajdonságok listája) és a <span class="tul">transition-duration</span> (az átmenet vagy átmenetek időtartama). Ha az időtartamot nem adjuk meg, akkor az átmenetnek nincs hatása, mert az alapértelmezett érték a 0 másodperc.</p>
+
+    <p><strong>A változáson átmenő tulajdonságok szintaxisa:</strong><br>
+    <span class="szint">transition-poperty: none|all|property|initial|inherit;</span></p>
+
+    <p><strong>Az átmenetek időtartama tulajdonság szintaxisa:</strong><br>
+    <span class="szint">transition-duration: time|initial|inherit;</span></p>
+
+    <p>Egyszerre azonban <strong>több tulajdonságot</strong> is változtathatunk és ezek <strong>változtatási időtartama is eltérhet</strong> (különbözhet) egymástól.</p>
+
+    <ul>
+        <li>A <em>változtatandó tulajdonságokat</em> a <strong>transition-property</strong> értékeiként, vesszővel és szóközzel felsorolva kell megadni; a sorrend tetszőleges. Például: <span class="pl">transition-property: width, height, color, margin;</span>
+        </li>      
+        <li>Az <em> egyes változások időtartamát</em> szintén tulajdonságonként, a <strong>transition-duration</strong> értékeiként, vesszővel és szóközzel elválasztva kell felsorolni, ahol a sorrend kötelezően a transition-property értékeinek sorendjét követi, így fog minden változtatandó tulajdonsághoz egyértelműen egy-egy időtartam tartozni. A különböző tualjdonságok változásaihoz különböző időtartamok tarozhatnak. Például: <span class="pl">transition-duration: 2s, 5s, 3s, 4s;</span>.</li>
+    </ul>
+
+    <h4>Gyakorló feladatok</h4>
+
+    <p class="feladat">Formázzuk meg az első blokkot és rámutatáskor csökkentsük le a méretét, változtassuk meg a kitöltőszínét és töröljük a szegélyét eltérő időtartam alatt; a virágos rétet mutató képet rámutatáskor nagyítsuk ki és kerekítsük le a széleit!</p>
+    <div class="blokk" id="tr-1"></div>
+	<img id="tr-2" src="tavasz.jpg" alt="Tavaszi táj">
+
+    <h3>Opcionálisan megadható tulajdonságok</h3>
+
+    <p>A folyamatos átmenethez <strong>opcionálisan megadható</strong> két további paraméter: a <span class="tul">transition-delay</span> (az átmenet késleltetése, azaz mikor kezdődjön az átmenet) és a <span class="tul">transition-timing-function</span> (az átmenetek időzítésének függvénye).</p>
+	
+	<p><strong>Az átmenet késleltetésének szintaxisa:</strong><br>
+    <span class="szint">transition-delay: time|initial|inherit;</span></p>
+    
+    <p><strong>Az átmenetek időzítési függvénytípusának szintaxisa:</strong><br>
+    <span class="szint">transition-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;</span></p>
+    
+    <ul>
+        <li>Az <em>átmenet késleltetését definiáló </em><strong>transition-delay</strong> a tényleges átmenet kezdetének a tulajdonság megváltoztatására vonatkozó utasításhoz képesti időbeli eltolódását definiálja.
+            <ul>
+                <li>0 értéknél azonnal megkezdődik a változás (ez az alapértelmezett érték)</li>
+                <li>egyébként a megadott pozitív érték nagyságú késleltetéssel indul el</li>
+                <li>ha véletlenül negatív értéket definiálunk, akkor nem indul el előbb a változás, mint az azt kiváltó utasítás, de a tulajdonság kezdeti értéke nem az egyébként induló érték, hanem egy olyan közbenső állapot lesz, mintha a negatív késleltetés ideje alatt már bekövetkezett változásról indulna a folyamat</li>
+                <li>az értéket másodpercben kell meghatározni</li>
+                <li>az egyes változtatott tulajdonságokra egyesével külön is előírható ez az érték (vesszővel és szóközzel kell elválasztani egymástól az értékeket) - azt a sorrendet kell követni, mint amelyet a transition-poperty-nél megadtunk, így egyértelműen meghatározhatjuk minden egyes változás kezdetéhez egy-egy késleltetést</li>
+            </ul>     
+            Például: <span class="pl">transition-delay: 1s, 2s, 0, 3s;</span>
+        </li>        
+        <li>Az <em>átmenetek időzítésének függvényét</em> a <strong>transition-timing-function</strong> értékével adhatjuk meg. Ez az érték azt jelenti, hogy az átmenet kezdeti és végpontja közötti közbenső időben milyen legyen a változó érték sebességváltozásának módja - pl. lineáris, lassuló, gyorsuló.
+            <ul>
+                <li>az átmenet lefolyása négyzetes <a href="https://www.w3schools.com/cssref/func_cubic-bezier.asp">Bezier-görbével</a> írható le: amely négy jellegzetes pontjával definálható - a függvény megadásakor ezt kell megadnunk (a részleteket lásd a hivatkozásban...) - pl. <span class="pl">cubic-bezier(x1,y1,x2,x2)</span></li>
+                <li>névvel is megadhatók az átmenetek:
+                    <ul>
+                        <li>linear (egyenletes sebességű)</li>
+                        <li>ease (gyors kezdésből lassul a végére) - ez az alapértelmezett</li>
+                        <li>ease-in (egyre gyorsul az elejétől kezdve)</li>
+                        <li>ease-out (hasonló az ease-hez, de kevésbé gyors az elején)</li>
+                        <li>ease-in-out (gyorsul az elején, lassul a végén)</li>
+                    </ul>
+                </li>
+            <li>a rövid átmeneteknél gyakorlatilag mindegy, hogy melyiket használjuk</li>
+            <li>ebben az esetben is használható az egyes tulajdonságokra eltérő függvény (vesszővel és szóközzel kell itt is elválasztani)</li>
+            </ul>    
+        Például: <span class="pl">transition-timing-function: linear, ease, linear, ease-in-out;</span>.</li>
+    </ul>
+
+    <h4>Gyakorló feladatok</h4>
+
+    <p class="feladat">Formázzuk meg a blokkot úgy, hogy a hosszmérete a kitöltse a képernyő teljes szélességét, de közben váltson másmilyen színnel kitöltöttre úgy, hogy a szélességet tíz, a szín váltását 5 másodperc alatt valósítsa meg. Időzítsük úgy a műveletet, hogy rámutatás után a szélesség változtatása 3, a szín módosulása 1 másodperc múlva induljon el és mindkét esetben egyenletes sebességű legyen a változtatás.</p>
+    <div class="blokk" id="tr-3"></div>
+
+    <h3>Összevont alak</h3>
+
+    <p>A legegyszerűbben az összevont <span class="tul">transition</span> tulajdonság is használható úgy, hogy elsőként a módosítandó értéket, majd szóközzel attól elválasztva a végrehajtás időtartamát adjuk meg (ez a kettő kötelező). Ezt követheti az időzítés függvénye, majd az időzítés értéke.</p>
+
+    <p><strong>Az átmenet leírásának összevont alakú szintaxisa:</strong><br>
+    <span class="szint">transition: property duration timing-function delay;</span></p>
+
+    <p>Például:<br>
+    csak a szélességet változtatja meg 3 mp alatt:<br>
+    <span class="pl">#doboz1 { width: 100px; height: 50px; background-color: red; color: white; transition: width 3s; }</span><br>
+    a magasságot és a betűszínt is megváltoztatja (eltérő időtartammal):<br>
+    <span class="pl">#doboz2 { width: 100px; height: 50px; background-color: red; color: white; transition: width 3s, color 5s; }</span></p>
+
+    <p>Egyelőre a transition összevont alakot egyes böngészőverziók nem tudják értelmezni és hirtelen átmenetet hoznak létre, ezért javasolt a paraméterek egyesével történő kódolása.</p>
+
+</body>
+
+</html>

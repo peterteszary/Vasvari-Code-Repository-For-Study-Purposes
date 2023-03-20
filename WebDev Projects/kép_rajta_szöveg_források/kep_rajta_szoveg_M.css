@@ -1,0 +1,31 @@
+
+.kulso {
+    width: 50%;
+    position: relative;
+    border: 1px solid;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.valtozo{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    top:0; left:0;
+    opacity: 0.5;
+}
+
+.szoveg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+}

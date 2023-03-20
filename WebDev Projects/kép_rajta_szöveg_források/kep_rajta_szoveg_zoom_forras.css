@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+
+.kulso { width: 80%; position: relative; margin: auto; }
+
+img { width: 100%; height: auto; display: block; }
+
+.kozos {
+    background-color:darkgreen;
+    color: white;
+    position: absolute;
+    overflow: hidden; }
+
+.szoveg {
+    margin: 0;
+    text-align: center;
+    font-size: 120%;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); }
+
+.sz { background-color: white; color: green; }
+
