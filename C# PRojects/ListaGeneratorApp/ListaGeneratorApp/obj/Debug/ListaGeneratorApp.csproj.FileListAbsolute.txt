@@ -1,0 +1,11 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\bin\Debug\ListaGeneratorApp.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\bin\Debug\ListaGeneratorApp.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\bin\Debug\ListaGeneratorApp.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.Form1.resources
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.Properties.Resources.resources
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.csproj.GenerateResource.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListaGeneratorApp\ListaGeneratorApp\obj\Debug\ListaGeneratorApp.pdb

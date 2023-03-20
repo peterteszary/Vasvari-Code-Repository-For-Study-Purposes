@@ -1,0 +1,11 @@
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\bin\Debug\ListBoxGyakorlas.exe.config
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\bin\Debug\ListBoxGyakorlas.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\bin\Debug\ListBoxGyakorlas.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.csproj.AssemblyReference.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.csproj.SuggestedBindingRedirects.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.Properties.Resources.resources
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.csproj.GenerateResource.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.exe
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.pdb
+C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListBoxGyakorlas\ListBoxGyakorlas\obj\Debug\ListBoxGyakorlas.Lista1.resources
