@@ -1,0 +1,11 @@
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.Form1.resources
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.Properties.Resources.resources
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\bin\Debug\SzovegFeldolgozo.exe.config
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\bin\Debug\SzovegFeldolgozo.exe
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\bin\Debug\SzovegFeldolgozo.pdb
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.exe
+C:\Users\Teszáry Brigi\source\repos\SzovegFeldolgozo\obj\Debug\SzovegFeldolgozo.pdb
