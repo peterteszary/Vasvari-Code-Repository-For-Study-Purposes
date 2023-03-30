@@ -1,0 +1,9 @@
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/bin/Release/NotePad+++.exe.config
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/bin/Release/NotePad+++.exe
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/bin/Release/NotePad+++.pdb
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad___.Form1.resources
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad___.Properties.Resources.resources
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad+++.csproj.GenerateResource.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad+++.csproj.CoreCompileInputs.cache
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad+++.exe
+/home/peterteszary/Documents/GitHub/Vasvari-Code-Repository-For-Study-Purposes/C# PRojects/NotePad+++/obj/Release/NotePad+++.pdb
