@@ -9,3 +9,14 @@ C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes
 C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.csproj.CoreCompileInputs.cache
 C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.exe
 C:\Users\bsze2tespet\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.pdb
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\bin\Debug\osszefoglalo.exe.config
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\bin\Debug\osszefoglalo.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\bin\Debug\osszefoglalo.pdb
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.Form1.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.Properties.Resources.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\osszefoglalo\obj\Debug\osszefoglalo.pdb
