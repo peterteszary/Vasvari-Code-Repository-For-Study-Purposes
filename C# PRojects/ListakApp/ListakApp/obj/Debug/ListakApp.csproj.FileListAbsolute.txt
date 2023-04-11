@@ -1,0 +1,6 @@
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.Form1.resources
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.Properties.Resources.resources
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.CoreCompileInputs.cache
