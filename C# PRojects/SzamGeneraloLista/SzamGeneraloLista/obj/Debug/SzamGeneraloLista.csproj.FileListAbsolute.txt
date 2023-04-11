@@ -9,3 +9,14 @@ C:\Users\Teszáry Brigi\source\repos\SzamGeneraloLista\obj\Debug\SzamGeneraloLis
 C:\Users\Teszáry Brigi\source\repos\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.csproj.CoreCompileInputs.cache
 C:\Users\Teszáry Brigi\source\repos\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.exe
 C:\Users\Teszáry Brigi\source\repos\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.pdb
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\bin\Debug\SzamGeneraloLista.exe.config
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\bin\Debug\SzamGeneraloLista.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\bin\Debug\SzamGeneraloLista.pdb
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.Form1.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.Properties.Resources.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\SzamGeneraloLista\SzamGeneraloLista\obj\Debug\SzamGeneraloLista.pdb

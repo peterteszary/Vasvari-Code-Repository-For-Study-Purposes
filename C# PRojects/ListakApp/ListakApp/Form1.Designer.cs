@@ -1,4 +1,6 @@
-﻿namespace ListakApp
+﻿using System;
+
+namespace ListakApp
 {
     partial class Form1
     {
@@ -252,6 +254,31 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void MasodikBevitelBox_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ElsoLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ElsoBevitelBox_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

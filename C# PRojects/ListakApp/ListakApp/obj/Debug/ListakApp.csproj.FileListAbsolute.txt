@@ -4,3 +4,14 @@ C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.Form1.resourc
 C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.Properties.Resources.resources
 C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.GenerateResource.cache
 C:\Users\Teszáry Brigi\source\repos\ListakApp\obj\Debug\ListakApp.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.Form1.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.Properties.Resources.resources
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\bin\Debug\ListakApp.exe.config
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\bin\Debug\ListakApp.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\bin\Debug\ListakApp.pdb
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.exe
+C:\Users\Teszáry Brigi\OneDrive\Dokumentumok\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\ListakApp\ListakApp\obj\Debug\ListakApp.pdb
