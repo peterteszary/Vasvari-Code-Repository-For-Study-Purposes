@@ -1,0 +1,11 @@
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.csproj.AssemblyReference.cache
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.csproj.SuggestedBindingRedirects.cache
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.Form1.resources
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.Properties.Resources.resources
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.csproj.GenerateResource.cache
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.csproj.CoreCompileInputs.cache
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\bin\Debug\szamlista_szurese.exe.config
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\bin\Debug\szamlista_szurese.exe
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\bin\Debug\szamlista_szurese.pdb
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.exe
+C:\Users\Teszáry Brigi\source\repos\szamlista_szurese\obj\Debug\szamlista_szurese.pdb
