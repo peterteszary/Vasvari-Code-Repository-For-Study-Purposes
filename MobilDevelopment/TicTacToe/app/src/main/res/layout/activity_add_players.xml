@@ -15,6 +15,64 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KÉREM \n JÁTÉKOSOK NEVÉT"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_200"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/playerOne"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:hint="Kérem az első játékos nevét"
+                android:textColor="@color/purple_200"
+                android:drawableLeft="@drawable/ic_xicon"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/playerTwo"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:hint="Kérem a második játékos nevét"
+                android:textColor="@color/purple_200"
+                android:drawableLeft="@drawable/ic_oicon"
+                android:drawablePadding="8dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/startGameButton"
+                android:text="Indítás"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+
+        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
