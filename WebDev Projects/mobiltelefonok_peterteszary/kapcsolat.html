@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="css/mobilstyle.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>Mobiltelefonok</title>
+    <nav id="header-section"></nav>
+  </head>
+  <body>
+    
+
+    
+<!-- form -->
+    <div class="container mt-5 bg-dark">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="vezeteknev" class="form-label">Vezetéknév</label>
+                  <input type="text" class="form-control" id="vezeteknev" name="vezeteknev" required>
+                  <div class="invalid-feedback">
+                    Kérjük, adja meg a vezetéknevét!
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="keresztnev" class="form-label">Keresztnév</label>
+                  <input type="text" class="form-control" id="keresztnev" name="keresztnev" required>
+                  <div class="invalid-feedback">
+                    Kérjük, adja meg a keresztnevét!
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback">
+                    Kérjük, adjon meg egy érvényes email címet!
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="telefonszam" class="form-label">Telefonszám</label>
+                  <input type="tel" class="form-control" id="telefonszam" name="telefonszam" required>
+                  <div class="invalid-feedback">
+                    Kérjük, adja meg a telefonszámát!
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="megjegyzes" class="form-label">Megjegyzés</label>
+                  <textarea class="form-control" id="megjegyzes" name="megjegyzes" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="szint" class="form-label">Szint</label>
+                  <select class="form-control" id="szint" name="szint">
+                    <option value="regi">Régi</option>
+                    <option value="kozepes">Közepes</option>
+                    <option value="uj">Új</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Küldés</button>
+              </form>
+              <!-- form vége -->
+
+</body>
+
+   
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+
+ <!--form küldése -->
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (form.checkValidity() === false) {
+        event.stopPropagation();
+      } else {
+        const formData = new FormData(form);
+        const jsonData = JSON.stringify(Object.fromEntries(formData.entries()));
+        console.log(jsonData);
+        // elküldi az űrlapot az átirányítási linken keresztül
+        fetch('https://example.com/api/formdata', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: jsonData
+        }).then(response => {
+          if (response.ok) {
+            // átirányít a köszönő oldalra, ha az űrlap sikeresen elküldve
+            window.location.href = 'koszono.html';
+          } else {
+            // ha valami hiba történik, megjelenít egy hibaüzenetet
+            throw new Error('Hiba történt az űrlap elküldése közben!');
+          }
+        }).catch(error => {
+          console.error(error);
+          alert(error.message);
+        });
+      }
+      form.classList.add('was-validated');
+    });
+  </script>
+  
+
+  <footer id="footer"></footer>
+</html>
