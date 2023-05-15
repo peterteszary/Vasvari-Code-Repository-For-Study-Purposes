@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tudásszintmérő teszt</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Tudásszintmérő teszt</h1>
+    <form id="testForm" style="padding: 20px;">
+      <fieldset>
+        <legend>Személyes adatok és jelszó megadása:</legend>
+        <div class="mb-3">
+          <label for="nameInput" class="form-label">Kitöltő neve*</label>
+          <input type="text" class="form-control" id="nameInput" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Kitöltő e-mail címe*</label>
+          <input type="email" class="form-control" id="emailInput" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="birthdateInput" class="form-label">Születési idő*</label>
+          <input type="text" class="form-control" id="birthdateInput" name="birthdate" required>
+        </div>
+        <div class="mb-3">
+          <label for="passwordInput" class="form-label">Jelszó*</label>
+          <input type="password" class="form-control" id="passwordInput" name="password" required>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Teszt kitöltése:</legend>
+        <div class="mb-3">
+          <label>1. kérdés: Mi a legelterjedtebb webes böngésző?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="question1" id="question1Option1" value="Firefox">
+            <label class="form-check-label" for="question1Option1">Firefox</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="question1" id="question1Option2" value="Chrome">
+            <label class="form-check-label" for="question1Option2">Chrome</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="question1" id="question1Option3" value="Safari">
+            <label class="form-check-label" for="question1Option3">Safari</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="question1" id="question1Option4" value="Opera">
+            <label class="form-check-label" for="question1Option4">Opera</label>
+        </div>
+      </div>
+      
+      <div class="mb-3">
+        <label>2. kérdés: Melyik nyelv használható a weboldalak fejlesztéséhez?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="question2" id="question2Option1" value="HTML">
+          <label class="form-check-label" for="question2Option1">HTML</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="question2" id="question2Option2" value="CSS">
+          <label class="form-check-label" for="question2Option2">CSS</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="question2" id="question2Option3" value="JavaScript">
+          <label class="form-check-label" for="question2Option3">JavaScript</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="question2" id="question2Option4" value="Python">
+          <label class="form-check-label" for="question2Option4">Python</label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="question3Input" class="form-label">3. kérdés: Írd ide a választ:</label>
+        <input type="text" class="form-control" id="question3Input" name="question3">
+      </div>
+
+      <div class="mb-3">
+        <label for="question4Input" class="form-label">4. kérdés: Írd ide a választ:</label>
+        <textarea class="form-control" id="question4Input" name="question4" rows="3"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label>5. kérdés: Válaszd ki a helyes választ:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="question5Option1" value="válasz1">
+          <label class="form-check-label" for="question5Option1">Válasz 1</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="question5Option2" value="válasz2">
+          <label class="form-check-label" for="question5Option2">Válasz 2</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="question5Option3" value="válasz3">
+          <label class="form-check-label" for="question5Option3">Válasz 3</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="question5Option4" value="válasz4">
+          <label class="form-check-label" for="question5Option4">Válasz 4</label>
+        </div>
+    </div>
+  </fieldset>
+  
+  <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Ellenőriz</button>
+  </div>
+  
+</form>
+
+<div id="result" class="mt-3"></div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="tudasszintmero_teszt.js"></script>
+</body>
+</html>
+

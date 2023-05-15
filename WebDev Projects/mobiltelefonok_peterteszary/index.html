@@ -8,23 +8,38 @@
    <!--  <link rel="stylesheet" href="css/bootstrap.min.css.map" /> -->
     <link rel="stylesheet" href="css/mobilstyle.css" />
     <script src="js/bootstrap.bundle.min.js"></script>
- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+ <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  -->
     <title>Mobiltelefonok</title>
-    <nav id="header-section"></nav>
+   <nav id="header"></nav>
+   <script src="js/header.js"></script>
+   <script>
+    loadHeader();
+   </script>
+  
+    </nav>
   </head>
   <body>
-    <section id="hero-section"></section>
-    <section id="cards-section"></section>
+ 
 
-    
+    <div id="hero"></div>
+    <script src="js/sections.js"></script>
+  <script>
+   loadSections();
+  </script>
+
+    <div id="cards"></div>
+    <script src="js/sections.js"></script>
+  <script>
+   loadSections();
+  </script>
 
 
 
   </body>
-  
-  <script src="js/sections.js"></script>
-  <script src="js/header.js"></script>
-  <script src="js/footer.js"></script>
 
   <footer id="footer"></footer>
+  <script src="js/footer.js"></script>
+  <script>
+   loadFooter();
+  </script>
 </html>

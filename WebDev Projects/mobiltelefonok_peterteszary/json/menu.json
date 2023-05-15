@@ -1,0 +1,26 @@
+{
+    "menu": [
+      {
+        "text": "Kezdőlap",
+        "url": "../index.html"
+      },
+      {
+        "text": "Mobiltörténelem",
+        "url": "../mobiltortenelem.html"
+      },
+      {
+        "text": "Hálózatok",
+        "url": "../halozatok.html"
+      },
+      {
+        "text": "Készülékek",
+        "url": "../keszulekek.html"
+      },
+      {
+        "text": "Kapcsolat",
+        "url": "../kapcsolat.html",
+        "class": "btn btn-success"
+      }
+    ]
+  }
+  
