@@ -8,12 +8,34 @@
     <script>
         function init(){
             fetch ('http://10.0.13.100/rest/nevek.php')
-            .then(resp => console.log(resp))
+            .then(resp => console.log(resp.json()))
+        }
+        function kuldes(){
+
+            let v = document.querySelector('[name=betuk]').value
+
+            let adat = {
+                betuk : v //key : value
+
+            }
+            console.log(v, adat)
+            fetch('http://10.0.13.100/rest/nevek.php',
+            {
+                method: "POST",
+               /*  headers:{
+                    "Content-Type" : "application/json",
+                }, */
+                body: JSON.stringify(adat)
+            }
+            )
+            .then(resp => console.log(resp.json()))
         }
 
     </script>
 </head>
 <body onload="init()">
-    
+    <input type="text" name="betuk" onkeyup="kuldes()" placeholder="Betűk">
+    <p id="javaslat"></p> 
+
 </body>
 </html>
