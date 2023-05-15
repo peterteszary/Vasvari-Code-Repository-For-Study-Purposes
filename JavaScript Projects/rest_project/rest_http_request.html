@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let xhr = new XMLHttpRequest()
+
+        function init(){
+            xhr.onload = success
+            xhr.onerror = error
+            xhr.open ('GET', 'https://api.github.com/users/peterteszary')
+            xhr.send()
+            console.log(xhr);
+        }
+        function success(){
+            console.log(xhr.responseText)
+        }
+        function error() {
+            console.log(xhr.error)
+        }
+    </script>
+</head>
+<body onload="init()">
+    <h1>XMLHttpRequest</h1>
+</body>
+</html>
