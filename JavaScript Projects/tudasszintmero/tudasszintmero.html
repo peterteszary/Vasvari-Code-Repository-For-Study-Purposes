@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tudásszintmérő</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="tudasszintmero.css">
+</head>
+
+<body>
+  <h1 class="text-center mt-4">Tudásszintmérő</h1>
+  <div class="container">
+    <div class="row">
+      <!-- Személyes adatok bekérése -->
+      <div class="col-md-6">
+        <form id="regForm">
+          <fieldset>
+            <legend class="mb-3">Személyes adatok és jelszó megadása</legend>
+            <div class="form-group">
+              <label for="nev">Név:</label>
+              <input type="text" id="nev" class="form-control" required pattern="[A-Z][a-zA-Z]+\s[A-Z][a-zA-Z]+">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="szuletesiIdo">Születési idő:</label>
+              <input type="date" id="szuletesiIdo" class="form-control" required pattern="\d{4}\.\d{2}\.\d{2}\.">
+            </div>
+            <div class="form-group">
+              <label for="jelszo">Jelszó:</label>
+              <input type="password" id="jelszo" class="form-control" required>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <!-- Személyes adatok bekérése vége -->
+   
+      <!-- Teszt -->
+      <div class="col-md-6">
+        <form id="testForm">
+          <fieldset class="mt-4">
+            <legend>Teszt kitöltése</legend>
+            <div id="kerdesek">
+              <div class="form-group">
+                <label>1. kérdés: Mi a legelterjedtebb webes böngésző?</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option1" value="Firefox">
+                  <label class="form-check-label" for="question1Option1">Firefox</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option2" value="Chrome">
+                  <label class="form-check-label" for="question1Option2">Chrome</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option3" value="Safari">
+                  <label class="form-check-label" for="question1Option3">Safari</label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option4" value="Opera">
+                  <label class="form-check-label" for="question1Option4">Opera</label>
+                  </div>
+                  </div>
+                  <div class="form-group">
+                  <label>2. kérdés: Melyik nyelv használható a weboldalak fejlesztéséhez?</label>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option1" value="HTML">
+                  <label class="form-check-label" for="question2Option1">HTML</label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option2" value="CSS">
+                  <label class="form-check-label" for="question2Option2">CSS</label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option3" value="JavaScript">
+                  <label class="form-check-label" for="question2Option3">JavaScript</label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option4" value="Python">
+                  <label class="form-check-label" for="question2Option4">Python</label>
+                  </div>
+                  </div>
+                  <div class="form-group">
+                  <label>3. kérdés: Melyik programozási nyelv kiterjesztése a .js?</label>
+                  <input type="text" id="question3" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                  <label>4. kérdés: Milyen (3) fő kategóriába sorolják a fejlesztőket az eltöltött évek alapján?</label>
+                  <textarea id="question4" class="form-control" required></textarea>
+                  </div>
+                  <div class="form-group">
+                  <label>5. kérdés: Melyik HTML tag jelöli az oszlop vagyis <span id="missingWord"></span> típusú és melyik a sor vagyis <span id="missingWordtwo"></span> típusú elemeket?</label>
+                  <p id="wordOrder"></p>
+                  <form id="answerForm">
+                  <input type="text" id="answerInput" required>
+                  <input type="text" id="answerInputtwo" required>
+                  </form>
+                  <div id="result"></div>
+                  </div>
+                  </div>
+                  <!-- Teszt vége -->
+                  <button id="submitButton" class="btn btn-warning btn-primary" style="display: none;" type="submit">Ellenőriz</button>
+                  </fieldset>
+                  </form>
+                  </div>
+                  </div>
+                  
+                    </div>
+                    <div id="score" class="container mt-4"></div>
+                    <script src="tudasszintmero.js"></script>
