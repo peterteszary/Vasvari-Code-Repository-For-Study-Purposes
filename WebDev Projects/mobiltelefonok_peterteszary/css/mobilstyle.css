@@ -28,44 +28,14 @@ body {
   z-index: 2;
 }
 
- /* Adjust card padding and margin at different screen sizes */
- @media screen and (max-width: 576px) {
-  #cards .col {
-    margin-bottom: 20px;
-  }
-  #cards .card {
-    margin-bottom: 0;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  #cards .col {
-    margin-bottom: 30px;
-  }
-  #cards .card {
-    margin-bottom: 0;
-    padding: 1rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  #cards .col {
-    margin-bottom: 30px;
-  }
-  #cards .card {
-    margin-bottom: 0;
-    padding: 1.5rem;
-  }
+.bg-ultra-dark {
+  background-color: rgb(26, 25, 25);
 }
 
-/* Adjust title margin at different screen sizes */
-@media screen and (max-width: 767px) {
-  h2 {
-  margin-top: 80px; /* increase top margin to create space */
-  }
-  }
-  
-  /* Fix card overlap on small screens */
-  @media screen and (max-width: 991.98px) {
+ /* Adjust card padding and margin at different screen sizes */
+ @media screen and (max-width: 991px) {
   #cards .col {
-  margin-bottom: 30px; / add bottom margin to create space between cards */
+    margin-bottom: 290px;
   }
-  }
+ }
+
