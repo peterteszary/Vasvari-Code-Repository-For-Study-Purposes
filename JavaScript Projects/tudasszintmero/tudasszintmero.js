@@ -55,14 +55,14 @@ function validateForm() {
   
     // 4. kérdés
     var question4Answer = document.getElementById("question4").value;
-    if (question4Answer.toLowerCase().includes("tapasztalt") && question4Answer.toLowerCase().includes("középhaladó") && question4Answer.toLowerCase().includes("kezdő")) {
+    if (question4Answer.toLowerCase().includes("senior") && question4Answer.toLowerCase().includes("medior") && question4Answer.toLowerCase().includes("junior")) {
       score += 20;
     }
   
     // 5. kérdés
     var answerInput = document.getElementById("answerInput").value;
     var answerInputtwo = document.getElementById("answerInputtwo").value;
-    if (answerInput.toLowerCase() === "td" && answerInputtwo.toLowerCase() === "tr") {
+    if (answerInput.toLowerCase() === "col" && answerInputtwo.toLowerCase() === "row") {
       score += 20;
     }
   
