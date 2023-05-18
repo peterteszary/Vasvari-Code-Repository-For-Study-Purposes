@@ -1,27 +1,113 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css.map" />
-    <link rel="stylesheet" href="css/mobilstyle.css" />
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <title>Mobiltelefonok</title>
-    <nav id="header-section"></nav>
-  </head>
-  <body>
-   
+    <link rel="stylesheet" href="../css/mobilstyle.css" />
+    <title>Mobilhálózatok fejlődése</title>
+
+
+</head>
+
+<body>
+    <nav id="header"></nav>
+
+    <!-- Fejléc szekció -->
+
+    <section id="hero" class="hero bg-dark text-white py-5"
+        style="background-image: url('../images/mobile-hero.jpg'); background-size: cover; position: relative;">
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="../images/phone-call.png" alt="" width="57" height="57" />
+            <h1 class="display-5 fw-bold text-body-emphasis text-uppercase">
+              Mobilhálózatok fejlődése
+            </h1>
+        </div>
+    </section>
+    <!-- Heros Section End -->
+    <body class="bg-dark">
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Korszakok</h1>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>Időszak</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1G - 2G</td>
+                        <td>Az analóg hálózatok korszaka</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>A mobiltelefonok korai időszakában az 1G (első generációs) és 2G (második generációs)
+                            analóg hálózatok voltak dominánsak. Az 1G hálózatok hanghívásokat és alapszintű szöveges
+                            üzenetküldést tettek lehetővé. A 2G hálózatok már digitális technológiát használtak,
+                            javították a hangminőséget és lehetővé tették a szöveges üzenetküldést is.</td>
+                    </tr>
+                    <tr>
+                        <td>3G</td>
+                        <td>Az adatátvitel kezdete</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Az 3G (harmadik generációs) hálózatok forradalmat hoztak a mobilkommunikáció terén.
+                            Lehetővé tették a nagysebességű adatátvitelt, így a felhasználók internetezhetnek, videókat
+                            nézhetnek és multimédiás tartalmakat tölthetnek le a mobiltelefonjaikon. Az 3G hálózatok
+                            széles körű elterjedése a mobilinternet kialakulásának alapját jelentette.</td>
+                    </tr>
+                    <tr>
+                        <td>4G</td>
+                        <td>Az adatátvitel sebességének további növekedése</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Az 4G (negyedik generációs) hálózatok még nagyobb sebességet és kapacitást biztosítottak
+                            az adatátvitelhez. Ez lehetővé tette a gyorsabb internetböngészést, a streaming szolgáltatások
+                            élvezetét és az alkalmazások gyorsabb letöltését. Az 4G hálózatok hozzájárultak az
+                            okostelefonok elterjedéséhez és a mobilalapú szolgáltatások fejlődéséhez.</td>
+                    </tr>
+                    <tr>
+                        <td>5G</td>
+                        <td>Az ultragyors internet és a hálózatok összekapcsolása</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Az 5G (ötödik generációs) hálózatok az ultragyors internet sebességét és az alacsony
+                            késleltetést hozták el. Ez lehetővé teszi az élő közvetítéseket, a nagyobb adatmennyiség
+                            gyorsabb letöltését és feltöltését, valamint az Internet of Things (IoT) eszközök és a
+                            gépi kommunikáció széles körű alkalmazását. Az 5G hálózatok fejlődése általános hatást
+                            gyakorol a kommunikációra, az iparban, az egészségügyben és más területeken.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+  
+
+
+
+    <footer id="footer"></footer>
+    <script src="js/footer.js"></script>
+    <script>
+      loadFooter();
+    </script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  
+    <script src="js/header.js"></script>
+    <script>
+      loadHeader();
+    </script>
   </body>
-
-  <div class="container bg-black">
-    <div class="row" height="50%"></div>
-  </div>
-  <script src="js/header.js"></script>
-  <script src="js/footer.js"></script>
-
-  <footer id="footer"></footer>
-</html>
+  
+  </html>
