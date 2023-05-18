@@ -1,105 +1,142 @@
-// Űrlap ellenőrzése
-function validateForm() {
-  var name = document.getElementById("nev").value;
-  var email = document.getElementById("email").value;
-  var birthDate = document.getElementById("szuletesiIdo").value;
-var password = document.getElementById("jelszo").value;
+// Személyes adatok validálása gomb
+var validateButton = document.createElement("button");
+validateButton.innerHTML = "Validálás";
+validateButton.className = "btn btn-primary";
+validateButton.addEventListener("click", function () {
+  validatePersonalData();
+});
 
-var question1 = document.querySelector('input[name="question1"]:checked');
-var question2 = document.querySelectorAll('input[name="question2"]:checked');
-var question3 = document.getElementById("question3").value;
-var question4 = document.getElementById("question4").value;
-var answerInput = document.getElementById("answerInput").value;
-var answerInputtwo = document.getElementById("answerInputtwo").value;
+var personalInfoSection = document.querySelector("#regForm fieldset");
+personalInfoSection.appendChild(validateButton);
 
-var score = 0;
+// Reset gomb
+var resetButton = document.createElement("button");
+resetButton.innerHTML = "Reset";
+resetButton.className = "btn btn-secondary";
+resetButton.addEventListener("click", function () {
+  resetForm();
+});
+personalInfoSection.appendChild(resetButton);
 
-// Személyes adatok ellenőrzése
-if (name !== "" && email !== "" && birthDate !== "" && password !== "") {
-// Teszt megjelenítése
-document.getElementById("testForm").style.display = "block";
-// Teszt ellenőrzése
-if (question1 !== null && question2.length > 0 && question3 !== "" && question4 !== "" && answerInput !== "" && answerInputtwo !== "") {
-  score = calculateScore();
-  document.getElementById("score").innerHTML = "Pontszám: " + score + "/100";
-} else {
-  document.getElementById("score").innerHTML = "Kérlek, töltsd ki az összes kérdést!";
-}
-} else {
-  document.getElementById("score").innerHTML = "Kérlek, add meg a személyes adatokat!";
-  }
-  }
-  
-  // Pontszám kiszámítása
-  function calculateScore() {
-  var score = 0;
-  
-  // 1. kérdés
-  var question1Answer = document.querySelector('input[name="question1"]:checked').value;
-  if (question1Answer === "Chrome") {
-  score += 20;
-  }
-  
-  // 2. kérdés
-  var question2Answers = document.querySelectorAll('input[name="question2"]:checked');
-  if (question2Answers.length === 3) {
-  score += 20;
-  }
-  
-  // 3. kérdés
-  var question3Answer = document.getElementById("question3").value;
-  if (question3Answer.toLowerCase() === "javascript") {
-  score += 20;
-  }
-  
-  // 4. kérdés
-  var question4Answer = document.getElementById("question4").value;
-  if (question4Answer.toLowerCase().includes("senior") && question4Answer.toLowerCase().includes("medior") && question4Answer.toLowerCase().includes("junior")) {
-  score += 20;
-  }
-  
-  // 5. kérdés
-  var answerInput = document.getElementById("answerInput").value;
-  var answerInputtwo = document.getElementById("answerInputtwo").value;
-  if (answerInput.toLowerCase() === "col" && answerInputtwo.toLowerCase() === "row") {
-  score += 20;
-  }
-  
-  return score;
-  }
-  
-  // Űrlap validáció
-  var regForm = document.getElementById("regForm");
-  var testForm = document.getElementById("testForm");
-  
-  regForm.addEventListener("input", function() {
-  checkFormValidity();
-  });
-  
-  testForm.addEventListener("input", function() {
-  checkFormValidity();
-  });
-  
-  function checkFormValidity() {
+// Teszt validálása gomb
+var validateTestButton = document.createElement("button");
+validateTestButton.innerHTML = "Ellenőrzés";
+validateTestButton.className = "btn btn-primary";
+validateTestButton.addEventListener("click", function () {
+  validateTest();
+});
+
+var testSection = document.querySelector("#testForm fieldset");
+testSection.appendChild(validateTestButton);
+
+// Személyes adatok validálása
+function validatePersonalData() {
   var name = document.getElementById("nev").value;
   var email = document.getElementById("email").value;
   var birthDate = document.getElementById("szuletesiIdo").value;
   var password = document.getElementById("jelszo").value;
-  
-  var submitButton = document.getElementById("submitButton");
-  
+
   if (name !== "" && email !== "" && birthDate !== "" && password !== "") {
-  submitButton.style.display = "block";
+    document.getElementById("testSection").style.display = "block";
   } else {
-  submitButton
-  
-  .style.display = "none";
+    document.getElementById("testSection").style.display = "none";
   }
+}
+
+// Teszt validálása
+function validateTest() {
+  var question1 = document.querySelector('input[name="question1"]:checked');
+  var question2 = document.querySelectorAll('input[name="question2"]:checked');
+  var question3 = document.getElementById("question3").value;
+  var question4 = document.getElementById("question4").value;
+  var answerInput = document.getElementById("answerInput").value;
+  var answerInputtwo = document.getElementById("answerInputtwo").value;
+
+  var score = calculateScore();
+
+  if (question1 !== null && question2.length > 0 && question3 !== "" && question4 !== "" && answerInput !== "" && answerInputtwo !== "") {
+    document.getElementById("score").innerHTML = "Pontszám: " + score + "/100";
+  } else {
+    document.getElementById("score").innerHTML = "Kérlek, töltsd ki az összes kérdést!";
   }
-  
-  // Űrlap beküldése
-  var submitButton = document.getElementById("submitButton");
-  submitButton.addEventListener("click", function(event) {
-  event.preventDefault();
-  validateForm();
-  });
+}
+
+// Pontszám kiszámítása
+function calculateScore() {
+  var score = 0;
+
+  // Logika a pontszámításhoz
+  // Mindegyik kérdésre 20 pontot adunk, tehát a maximális pontszám 100
+
+  var question1 = document.querySelector('input[name="question1"]:checked');
+  var question2 = document.querySelectorAll('input[name="question2"]:checked');
+  var question3 = document.getElementById("question3").value;
+  var question4 = document.getElementById("question4").value;
+  var answerInput = document.getElementById("answerInput").value;
+  var answerInputtwo = document.getElementById("answerInputtwo").value;
+
+  if (question1 !== null && question1.value === "valasz1") {
+    score += 20;
+  }
+
+  if (question2.length === 2) {
+    score += 20;
+  }
+
+  if (question3 === "valasz3") {
+    score += 20;
+  }
+
+  if (question4 === "valasz4") {
+    score += 20;
+  }
+
+  if (answerInput === "valasz5") {
+    score += 20;
+  }
+
+  if (answerInputtwo === "valasz6") {
+    score += 20;
+  }
+
+  return score;
+}
+
+// Űrlap visszaállítása
+function resetForm() {
+  document.getElementById("regForm").reset();
+  document.getElementById("testForm").reset();
+  document.getElementById("testSection").style.display = "none";
+  document.getElementById("score").innerHTML = "";
+}
+
+// Űrlap validáció
+var regForm = document.getElementById("regForm");
+var testForm = document.getElementById("testForm");
+
+regForm.addEventListener("input", function () {
+  checkFormValidity();
+});
+
+testForm.addEventListener("input", function () {
+  checkFormValidity();
+});
+
+function checkFormValidity() {
+  var validRegForm = regForm.checkValidity();
+  var validTestForm = testForm.checkValidity();
+
+  if (validRegForm) {
+    document.getElementById("personalInfoSection").style.display = "none";
+    document.getElementById("testSection").style.display = "block";
+  } else {
+    document.getElementById("personalInfoSection").style.display = "block";
+    document.getElementById("testSection").style.display = "none";
+  }
+
+  if (validTestForm) {
+    document.getElementById("submitButton").disabled = false;
+  } else {
+    document.getElementById("submitButton").disabled = true;
+  }
+}
