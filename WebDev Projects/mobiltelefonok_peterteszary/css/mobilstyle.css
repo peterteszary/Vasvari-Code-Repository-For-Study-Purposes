@@ -41,7 +41,7 @@ body {
 /*Darker BG*/
 
 .bg-ultra-dark {
-  background-color: rgb(26, 25, 25) !important;
+  background-color: #141522 !important;
 }
 
 
@@ -52,10 +52,11 @@ body {
 /*Borders and Buttons*/
 
 .border--accent {
+  border-color: aqua;
   border-radius: 25px;
   border-style: solid;
   border-width: 1px;
-  border-color: aqua;
+  
 
 }
 
@@ -93,17 +94,23 @@ body {
 /*Készülék CSS*/
 
 table.table {
-  background-color: #ffffff;
-  color: #343a40;
+  background-color: #282930;
+  color: #e3e3e3;
+  box-shadow: 5px 10px 8px #0f0e0e;
+ 
 }
 
 .table-container {
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(16, 17, 27);
   margin-top: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 10px 8px #0f0e0e;
   padding: 20px;
+  
 }
 
+.table-dark td, .table-dark th, .table-dark thead th {
+  border-color: aqua;
+}
 
 .mobile-image {
   transition: transform 0.25s;
@@ -185,6 +192,20 @@ hr {
   border-bottom: aqua solid 1px;
 }
 
+/*Dropdown Menu*/
+
+/* .dropdown-menu {
+ 
+  
+  background-color: #141522 ;
+  color: #e3e3e3!important;
+ 
+.dropdown-item {
+  
+    color: #d9dcdf!important;
+   
+}
+ */
 
 /*Media Queries */
 
