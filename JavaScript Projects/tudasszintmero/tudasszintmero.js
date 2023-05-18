@@ -15,6 +15,7 @@ resetButton.innerHTML = "Reset";
 resetButton.className = "btn btn-secondary";
 resetButton.addEventListener("click", function () {
   resetForm();
+  document.getElementById("score").innerHTML = "";
 });
 personalInfoSection.appendChild(resetButton);
 
@@ -52,28 +53,7 @@ function validateTest() {
   var answerInput = document.getElementById("answerInput").value;
   var answerInputtwo = document.getElementById("answerInputtwo").value;
 
-  var score = calculateScore();
-
-  if (question1 !== null && question2.length > 0 && question3 !== "" && question4 !== "" && answerInput !== "" && answerInputtwo !== "") {
-    document.getElementById("score").innerHTML = "Pontszám: " + score + "/100";
-  } else {
-    document.getElementById("score").innerHTML = "Kérlek, töltsd ki az összes kérdést!";
-  }
-}
-
-// Pontszám kiszámítása
-function calculateScore() {
   var score = 0;
-
-  // Logika a pontszámításhoz
-  // Mindegyik kérdésre 20 pontot adunk, tehát a maximális pontszám 100
-
-  var question1 = document.querySelector('input[name="question1"]:checked');
-  var question2 = document.querySelectorAll('input[name="question2"]:checked');
-  var question3 = document.getElementById("question3").value;
-  var question4 = document.getElementById("question4").value;
-  var answerInput = document.getElementById("answerInput").value;
-  var answerInputtwo = document.getElementById("answerInputtwo").value;
 
   if (question1 !== null && question1.value === "valasz1") {
     score += 20;
@@ -99,7 +79,7 @@ function calculateScore() {
     score += 20;
   }
 
-  return score;
+  document.getElementById("score").innerHTML = "Pontszám: " + score + "/100";
 }
 
 // Űrlap visszaállítása
@@ -107,7 +87,6 @@ function resetForm() {
   document.getElementById("regForm").reset();
   document.getElementById("testForm").reset();
   document.getElementById("testSection").style.display = "none";
-  document.getElementById("score").innerHTML = "";
 }
 
 // Űrlap validáció
