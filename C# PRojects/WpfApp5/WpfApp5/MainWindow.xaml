@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.ColumnSpan="2" Height="20" VerticalAlignment="Top">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Fájl">
+                    <MenuItem Header="Megnyitás..." Click="megnyitas_Click"/>
+                    <MenuItem Header="Mentés másként..." Click="mentes_Click"/>
+                </MenuItem>
+                <MenuItem Header="Szerkesztés">
+                    <MenuItem Header="Visszavonás"/>
+                    <MenuItem Header="Újra"/>
+                    <Separator/>
+                    <MenuItem Header="Kivágás"/>
+                    <MenuItem Header="Másolás"/>
+                    <MenuItem Header="Beillesztés"/>
+                    <Separator/>
+                    <MenuItem Header="Törlés"/>
+                </MenuItem>
+                <MenuItem Header="Névjegy" Click="MenuItem_Click">
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        
+        <Label x:Name="focim" Content="Ez egy főcím" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" FontStyle="Italic" Background="AliceBlue">
+        <Label.ContextMenu>
+            <ContextMenu>
+                <MenuItem x:Name="elso_stilus" Click="elso_stilus_Click" Header="Első stílus" Background="Bisque"/>
+                <Separator/>
+                <MenuItem x:Name="masodik_stilus" Click="masodik_stilus_Click" Header="Második stílus" Background="Chartreuse"/>
+                <Separator/>
+                <MenuItem x:Name="harmadik_stilus" Click="harmadik_stilus_Click" Header="Harmadik stílus" Background="Cyan"/>
+            </ContextMenu>
+        </Label.ContextMenu>
+        </Label>
+        <RichTextBox x:Name="szoveg" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Background="Black" Foreground="Lime" >
+            <RichTextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Mentés..." Click="mentes_Click"/>
+                    <MenuItem Header="Megnyitás" Click="megnyitas_Click"/>
+                </ContextMenu>
+            </RichTextBox.ContextMenu>
+        </RichTextBox>
+    </Grid>
+</Window>
