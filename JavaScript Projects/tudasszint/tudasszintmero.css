@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(45, 46, 46);
+    color: beige;
+}
+
 #kerdesek {
     margin-top: 20px;
   }
@@ -6,3 +11,4 @@
     margin-top: 40px;
   }
   
+

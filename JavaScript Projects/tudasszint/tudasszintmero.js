@@ -31,19 +31,17 @@ document.getElementById('checkButton').addEventListener('click', function () {
   const question2 = document.querySelectorAll('input[name="question2[]"]:checked');
   const question3 = document.getElementById('question3');
   const question4 = document.querySelectorAll('input[name="question4[]"]:checked');
-  const question5 = document.querySelector('input[name="question5"]:checked');
+  const question5 = document.querySelectorAll('input[name="question5[]"]:checked');
 
   // Pontszám számítása
   score = 0;
 
-  //Első kérdés
-
+  // Első kérdés
   if (question1 && question1.value === 'Chrome') {
     score += 20;
   }
 
-  //Második kérdés
-
+  // Második kérdés
   if (question2.length === 3) {
     let isHTML = false;
     let isCSS = false;
@@ -55,23 +53,21 @@ document.getElementById('checkButton').addEventListener('click', function () {
       } else if (question2[i].value === 'CSS') {
         isCSS = true;
       } else if (question2[i].value === 'JavaScript') {
-        isJavaScript = true;
+        isJavaScript = false;
       }
     }
 
-    //Harmadik kérdés
-
-    if (isHTML && isCSS && isJavaScript) {
+    if (isHTML && isCSS && !isJavaScript) {
       score += 20;
     }
   }
 
+  // Harmadik kérdés
   if (question3 && question3.value === 'JavaScript') {
     score += 20;
   }
 
-  //Negyedik kérdés
-
+  // Negyedik kérdés
   if (question4.length === 3) {
     let isJunior = false;
     let isMedior = false;
@@ -92,34 +88,23 @@ document.getElementById('checkButton').addEventListener('click', function () {
     }
   }
 
-  //Ötödik kérdés  
-    //th, tr, row, col
-  if (question5.length === 5) {
-    let isth = false;
-    let istr = false;
-    let isrow = false;
-    let iscol = false;
+  // Ötödik kérdés
+  if (question5.length === 2) {
+    let isTh = false;
+    let isTr = false;
 
     for (let i = 0; i < question5.length; i++) {
-      if (question5[i].value === 'th') {
-        isth = true;
-      } else if (question5[i].value === 'tr') {
-        istr = true;
-      } else if (question5[i].value === 'row') {
-        isrow = false;
-      } else if (question5[i].value === 'col') {
-      isrow = false;
+      if (question5[i].value === 'Th') {
+        isTh = true;
+      } else if (question5[i].value === 'Tr') {
+        isTr = true;
+      }
     }
-  }
 
-    if (isth && istr) {
+    if (isTh && isTr) {
       score += 20;
     }
   }
-
-  /* if (question5 && question5.value === 'row') {
-    score += 20;
-  } */
 
   // Eredmény megjelenítése
   document.getElementById('score').textContent = `Pontszám: ${score}`;

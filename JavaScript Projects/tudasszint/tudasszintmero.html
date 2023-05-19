@@ -36,10 +36,24 @@
               <input type="password" id="jelszo" class="form-control" required>
             </div>
           </fieldset>
-          <button id="validateButton" class="btn btn-primary" type="button">Validálás</button>
-          <button id="resetButton" class="btn btn-secondary" type="button">Reset</button>
+          <button id="validateButton" class="btn btn-success" type="button">Validálás</button>
+          <button id="resetButton" class="btn btn-danger" type="button">Reset</button>
         </form>
-      </div>
+    
+        <!-- Eredmények és reset-->
+    
+        <div class="row">
+          <div class="col-md-6">
+            <div id="resultSection" style="display: none;">
+              <h3 class="mt-4">Eredmény:</h3>
+              <p id="score"></p>
+              <button id="resetResultButton" class="btn btn-secondary" type="button">Válaszok törlése</button>
+            </div>
+          </div>
+        </div>
+      <!-- Eredmények és reset vége-->
+    
+    </div>
       <!-- Személyes adatok bekérése vége -->
 
       <!-- Teszt -->
@@ -111,47 +125,36 @@
                   <label class="form-check-label" for="question4Option3">Senior</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option3" value="Senior">
+                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option3" value="Tutor">
                   <label class="form-check-label" for="question4Option3">Tutor</label>
                 </div>
               </div>
               <div class="form-group">
                 <label>5. kérdés: Hogy lehet táblázatot létrehozni HTML-ben? (több válasz is lehetséges)</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option1" value="col">
+                  <input class="form-check-input" type="checkbox" name="question5[]" id="question5Option1" value="Th">
                   <label class="form-check-label" for="question5Option1">th</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option2" value="table">
+                  <input class="form-check-input" type="checkbox" name="question5[]" id="question5Option2" value="Tr">
                   <label class="form-check-label" for="question5Option2">tr</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option3" value="row">
+                  <input class="form-check-input" type="checkbox" name="question5[]" id="question5Option3" value="row">
                   <label class="form-check-label" for="question5Option3">row</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option4" value="cell">
+                  <input class="form-check-input" type="checkbox" name="question5[]" id="question5Option4" value="col">
                   <label class="form-check-label" for="question5Option4">col</label>
                 </div>
               </div>
             </div>
           </fieldset>
-          <button id="checkButton" class="btn btn-primary mt-3" type="button">Ellenőrzés</button>
+          <button id="checkButton" class="btn btn-success mt-3" type="button">Ellenőrzés</button>
         </form>
       </div>
       <!-- Teszt vége -->
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div id="resultSection" style="display: none;">
-          <h3 class="mt-4">Eredmény:</h3>
-          <p id="score"></p>
-          <button id="resetResultButton" class="btn btn-secondary" type="button">Reset</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
+      
   <script src="tudasszintmero.js"></script>
 </body>
 </html>
