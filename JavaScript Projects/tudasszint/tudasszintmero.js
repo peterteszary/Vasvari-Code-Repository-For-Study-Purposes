@@ -121,3 +121,4 @@ document.getElementById('resetResultButton').addEventListener('click', function 
   document.getElementById('resultSection').style.display = 'none';
   score = 0;
 });
+//Teszáry Péter

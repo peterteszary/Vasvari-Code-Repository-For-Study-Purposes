@@ -1,14 +1,12 @@
-body{
+body {
     background-color: rgb(45, 46, 46);
     color: beige;
 }
 
 #kerdesek {
     margin-top: 20px;
-  }
-  
-  #resultSection {
-    margin-top: 40px;
-  }
-  
+}
 
+#resultSection {
+    margin-top: 40px;
+}
