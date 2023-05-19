@@ -51,72 +51,107 @@
               <div class="form-group">
                 <label>1. kérdés: Mi a legelterjedtebb webes böngésző?</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question1" id="question1Option1" value="Firefox">
-                  <label class="form-check-label" for="question1Option1">Firefox</label>
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option1" value="Chrome">
+                  <label class="form-check-label" for="question1Option1">Chrome</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question1" id="question1Option2" value="Chrome">
-                  <label class="form-check-label" for="question1Option2">Chrome</label>
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option2" value="Firefox">
+                  <label class="form-check-label" for="question1Option2">Firefox</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="question1" id="question1Option3" value="Safari">
                   <label class="form-check-label" for="question1Option3">Safari</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question1" id="question1Option4" value="Opera">
-                  <label class="form-check-label" for="question1Option4">Opera</label>
+                  <input class="form-check-input" type="radio" name="question1" id="question1Option4" value="Edge">
+                  <label class="form-check-label" for="question1Option4">Edge</label>
                 </div>
               </div>
               <div class="form-group">
-                <label>2. kérdés: Melyik nyelv használható a weboldalak fejlesztéséhez?</label>
+                <label>2. kérdés: Melyek a webfejlesztés alapvető nyelvei?</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option1" value="HTML">
+                  <input class="form-check-input" type="checkbox" name="question2[]" id="question2Option1" value="HTML">
                   <label class="form-check-label" for="question2Option1">HTML</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option2" value="CSS">
+                  <input class="form-check-input" type="checkbox" name="question2[]" id="question2Option2" value="CSS">
                   <label class="form-check-label" for="question2Option2">CSS</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option3" value="JavaScript">
+                  <input class="form-check-input" type="checkbox" name="question2[]" id="question2Option3" value="JavaScript">
                   <label class="form-check-label" for="question2Option3">JavaScript</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="question2" id="question2Option4" value="Python">
+                  <input class="form-check-input" type="checkbox" name="question2[]" id="question2Option4" value="Python">
                   <label class="form-check-label" for="question2Option4">Python</label>
                 </div>
               </div>
               <div class="form-group">
-                <label>3. kérdés: Melyik programozási nyelv kiterjesztése a .js?</label>
-                <input type="text" id="question3" class="form-control" required>
+                <label>3. kérdés: Melyik nyelv használható a böngészőkben a felhasználói interakciók vezérlésére?</label>
+                <select class="form-control" name="question3" id="question3">
+                  <option value="">Válasszon egyet</option>
+                  <option value="HTML">HTML</option>
+                  <option value="CSS">CSS</option>
+                  <option value="JavaScript">JavaScript</option>
+                  <option value="PHP">PHP</option>
+                </select>
               </div>
               <div class="form-group">
-                <label>4. kérdés: Milyen (3) fő kategóriába sorolják a fejlesztőket az eltöltött évek alapján?</label>
-                <textarea id="question4" class="form-control" required></textarea>
+                <label>4. kérdés: Melyek a programozási tapasztalat szintjei? (több válasz is lehetséges)</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option1" value="Junior">
+                  <label class="form-check-label" for="question4Option1">Junior</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option2" value="Medior">
+                  <label class="form-check-label" for="question4Option2">Medior</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option3" value="Senior">
+                  <label class="form-check-label" for="question4Option3">Senior</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question4[]" id="question4Option3" value="Senior">
+                  <label class="form-check-label" for="question4Option3">Tutor</label>
+                </div>
               </div>
               <div class="form-group">
-                <label>5. kérdés: Melyik HTML tag jelöli az oszlop vagyis &lt;col&gt; típusú és melyik a sor vagyis &lt;row&gt; típusú elemeket?</label>
-                <p id="wordOrder"></p>
-                <form id="answerForm">
-                  <input type="text" id="answerInput" required>
-                  <input type="text" id="answerInputtwo" required>
-                </form>
+                <label>5. kérdés: Hogy lehet táblázatot létrehozni HTML-ben? (több válasz is lehetséges)</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option1" value="col">
+                  <label class="form-check-label" for="question5Option1">th</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option2" value="table">
+                  <label class="form-check-label" for="question5Option2">tr</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option3" value="row">
+                  <label class="form-check-label" for="question5Option3">row</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="question5" id="question5Option4" value="cell">
+                  <label class="form-check-label" for="question5Option4">col</label>
+                </div>
               </div>
             </div>
           </fieldset>
-          <button id="checkButton" class="btn btn-primary" type="button" style="display: none;">Ellenőrzés</button>
+          <button id="checkButton" class="btn btn-primary mt-3" type="button">Ellenőrzés</button>
         </form>
       </div>
       <!-- Teszt vége -->
     </div>
-    <div id="resultSection" class="row mt-4" style="display: none;">
-      <div class="col-md-6 offset-md-3">
-        <h3>Eredmény</h3>
-        <div id="score" class="container mt-4"></div>
-        <button id="resetButton" class="btn btn-primary mt-4" type="button">Reset</button>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="resultSection" style="display: none;">
+          <h3 class="mt-4">Eredmény:</h3>
+          <p id="score"></p>
+          <button id="resetResultButton" class="btn btn-secondary" type="button">Reset</button>
+        </div>
       </div>
     </div>
   </div>
+
   <script src="tudasszintmero.js"></script>
 </body>
 </html>
