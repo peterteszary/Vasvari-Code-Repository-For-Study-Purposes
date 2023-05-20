@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/weatherappbg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="City"
+        android:textColor="@color/white"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:foregroundTint="#FFFFFF"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="120sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tempTextView"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/tempTextView"
+        android:layout_toRightOf="@+id/tempTextView"
+        android:text="°F"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <ImageView
+        android:layout_height="100dp"
+        android:id="@+id/weatherImageView" android:layout_alignTop="@+id/tempTextView"
+        android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/chewy" android:layout_width="100dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Date"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/weatherDesctextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="17dp"
+        android:text="Weather Description"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="normal|italic" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@drawable/weatherappbg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Időjárás"
+        android:textColor="#00BCD4"
+        android:textSize="40sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Add meg a város nevét"
+            android:inputType="textPersonName"
+            android:textColor="#00BCD4"
+            android:textColorHighlight="#8BC34A"
+            android:textColorHint="#00BCD4"
+            android:textColorLink="#8BC34A"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Országkód (opcionális)"
+            android:inputType="textPersonName"
+            android:textColor="#00BCD4"
+            android:textColorHighlight="#8BC34A"
+            android:textColorHint="#00BCD4"
+            android:textColorLink="#8BC34A"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#00BCD4"
+            android:onClick="getWeatherDetails"
+            android:text="Lekérdezés"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@null"
+            tools:ignore="TextContrastCheck" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#E91E63"
+                android:textColorHint="#E91E63"
+                android:textSize="16sp" />
+        </ScrollView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+    </LinearLayout>
+</LinearLayout>
