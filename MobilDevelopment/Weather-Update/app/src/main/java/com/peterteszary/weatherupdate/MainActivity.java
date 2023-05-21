@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etCity, etCountry;
     TextView tvResult;
     private final String url = "https://api.openweathermap.org/data/2.5/weather";
-    private final String appid = "8d4d2d0b76fbf4586546e7bad1f260d6";
+    private final String appid = "";
     DecimalFormat df = new DecimalFormat("#.##");
 
 
