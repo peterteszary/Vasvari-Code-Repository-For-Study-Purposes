@@ -10,37 +10,18 @@ function loadSections() {
     });
 
 
-  fetch('../sections/three-columns.html')
+
+
+  fetch('../sections/cards-section.html')
     .then(response => response.text())
     .then(html => {
-      const div = document.querySelector('#three-columns');
+      const div = document.querySelector('#cards-section');
       div.innerHTML = html;
     });
 
 
-  fetch('../sections/cards.html')
-    .then(response => response.text())
-    .then(html => {
-      const div = document.querySelector('#cards');
-      div.innerHTML = html;
-    });
 
-
-  fetch('../sections/cards-second.html')
-    .then(response => response.text())
-    .then(html => {
-      const div = document.querySelector('#cards-second');
-      div.innerHTML = html;
-    });
-
-  fetch('../sections/cards-third.html')
-    .then(response => response.text())
-    .then(html => {
-      const div = document.querySelector('#cards-third');
-      div.innerHTML = html;
-    });
-
-    fetch('../sections/devices-section.html')
+  fetch('../sections/devices-section.html')
     .then(response => response.text())
     .then(html => {
       const div = document.querySelector('#devices');
