@@ -1,0 +1,32 @@
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe.config
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\bin\Debug\gyakorlas.pdb
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.AssemblyReference.cache
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.SuggestedBindingRedirects.cache
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\MainWindow.g.cs
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\App.g.cs
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas_MarkupCompile.cache
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas_MarkupCompile.lref
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\MainWindow.baml
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.g.resources
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.Properties.Resources.resources
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.GenerateResource.cache
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.exe
+C:\Users\csontos.peter\source\repos\gyakorlas\gyakorlas\obj\Debug\gyakorlas.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe.config
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\bin\Debug\gyakorlas.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\bin\Debug\gyakorlas.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.SuggestedBindingRedirects.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\MainWindow.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\App.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas_MarkupCompile.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas_MarkupCompile.lref
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\MainWindow.baml
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.g.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.Properties.Resources.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.GenerateResource.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas\gyakorlas\obj\Debug\gyakorlas.pdb

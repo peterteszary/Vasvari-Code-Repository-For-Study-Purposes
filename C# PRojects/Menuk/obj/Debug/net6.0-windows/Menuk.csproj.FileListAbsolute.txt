@@ -1,0 +1,5 @@
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Menuk\obj\Debug\net6.0-windows\Menuk.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Menuk\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Menuk\obj\Debug\net6.0-windows\Menuk_MarkupCompile.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Menuk\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Menuk\obj\Debug\net6.0-windows\Menuk_MarkupCompile.lref

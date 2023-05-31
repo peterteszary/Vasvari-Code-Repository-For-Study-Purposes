@@ -1,0 +1,16 @@
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\bin\Debug\Gyakorlas-2023_05_31_tp.exe.config
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\bin\Debug\Gyakorlas-2023_05_31_tp.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\bin\Debug\Gyakorlas-2023_05_31_tp.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.csproj.SuggestedBindingRedirects.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\MainWindow.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\App.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp_MarkupCompile.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp_MarkupCompile.lref
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\MainWindow.baml
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.g.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas_2023_05_31_tp.Properties.Resources.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.csproj.GenerateResource.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\Gyakorlas-2023_05_31_tp\Gyakorlas-2023_05_31_tp\obj\Debug\Gyakorlas-2023_05_31_tp.pdb
