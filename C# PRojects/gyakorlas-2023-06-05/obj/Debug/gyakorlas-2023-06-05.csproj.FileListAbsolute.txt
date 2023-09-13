@@ -1,0 +1,15 @@
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\bin\Debug\gyakorlas-2023-06-05.exe.config
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\bin\Debug\gyakorlas-2023-06-05.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\bin\Debug\gyakorlas-2023-06-05.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.csproj.SuggestedBindingRedirects.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\MainWindow.baml
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\MainWindow.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\App.g.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05_MarkupCompile.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.g.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas_2023_06_05.Properties.Resources.resources
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.csproj.GenerateResource.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\C# PRojects\gyakorlas-2023-06-05\obj\Debug\gyakorlas-2023-06-05.pdb

@@ -7,8 +7,36 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment=>
-            
-        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.Column="0" 
+HorizontalAlignment="Center" VerticalAlignment="Center" 
+Background="Aquamarine">
+                <TextBlock Margin="10,10,10,20">Jelöld be az egyiket!</TextBlock>
+                <CheckBox IsChecked="True" HorizontalAlignment="Center" Margin="10">
+                    <TextBlock>Teszt 1</TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" HorizontalAlignment="Center">
+                    <TextBlock>Teszt 2</TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" HorizontalAlignment="Center">
+                    <TextBlock>Teszt 3</TextBlock>
+                </CheckBox>
+                <TextBlock Margin="20" HorizontalAlignment="Center">Bármelyiket...</TextBlock>
+                <Button Content="OK" Click="opciok" Margin="10"/>
+            </StackPanel>
+            <Rectangle Fill="AliceBlue" Grid.Row="0" Grid.Column="1"/>
+            <TextBlock Text="Ez egy próba" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Border Background="AntiqueWhite" BorderBrush="Aqua" BorderThickness="10" Grid.Column="0" Grid.Row="2"/>
+            <Label Content="Valami" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
     </Grid>
 </Window>
