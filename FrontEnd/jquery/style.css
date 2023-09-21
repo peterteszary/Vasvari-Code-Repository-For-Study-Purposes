@@ -1,8 +1,12 @@
-div{
+div {
     width: 100px;
     height: 100px;
 }
 
-.kek{
+.kek {
     background-color: blue;
+}
+
+.sarga {
+    background-color: yellow;
 }
