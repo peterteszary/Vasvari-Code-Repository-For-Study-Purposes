@@ -1,5 +1,8 @@
 body {
     background-color: rgb(90, 90, 90);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
 
 
@@ -21,9 +24,11 @@ td{
     border: 1px solid black;
     background-color: antiquewhite;
     width: 220px;
-    margin: auto;
-
-}
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+  
 .screen{
     background-color: rgb(255, 224, 184);
     height: 2rem;
