@@ -1,0 +1,26 @@
+td{
+    height: 40px;
+    width: 40px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.op{
+    background-color: brown;
+}
+.calc{
+    border: 1px solid black;
+}
+.screen{
+    background-color: antiquewhite;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    text-align: right;
+}
+sup{
+    font-size: 0.5rem;
+}
