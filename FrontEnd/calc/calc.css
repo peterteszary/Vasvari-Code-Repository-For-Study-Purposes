@@ -5,9 +5,7 @@ body {
     margin: 0;
 }
 
-
-
-td{
+td {
     height: 40px;
     width: 40px;
     background-color: darkblue;
@@ -17,10 +15,12 @@ td{
     font-size: 1.5rem;
     font-weight: 900;
 }
-.op{
+
+.op {
     background-color: brown;
 }
-.calc{
+
+.calc {
     border: 1px solid black;
     background-color: antiquewhite;
     width: 220px;
@@ -28,14 +28,15 @@ td{
     top: 50%;
     left: 50%;
     transform: translate(-50% -50%);
-  
-.screen{
-    background-color: rgb(255, 224, 184);
-    height: 2rem;
-    font-size: 1.5rem;
-    margin: 0.5rem;
-    text-align: right;
-}
-sup{
-    font-size: 0.5rem;
-}
+
+    .screen {
+        background-color: rgb(255, 224, 184);
+        height: 2rem;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        text-align: right;
+    }
+
+    sup {
+        font-size: 0.5rem;
+    }
