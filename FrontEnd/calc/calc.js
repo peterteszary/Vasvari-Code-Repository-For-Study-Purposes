@@ -43,6 +43,12 @@ function init() {
           break;
         case "+": //Összeadás
           tmp += sc.innerText + "+";
+          sc.innerText = "0";
+          console.log(tmp);
+          break;
+        case "=": //eredmény megjelnítése
+          sc.innerText = eval(tmp + sc.innerText);
+          tmp = ""; //átmeneti tároló ürítése
           break;
       }
     });
