@@ -5,6 +5,12 @@ $(document).ready(function() {
     })
     $('.btn-kek').click(function(){
        // $(".kek").show();
-         $(".kek").toggle(1000);
+         $(".kek").toggle(1000, function(){
+            if ($(this).is(":hidden")){
+                $(".btn-kek").text("Mutat")
+                }else{
+                    $(".btn-kek").text("Elrejt");
+            }
+         });
     })
     })
