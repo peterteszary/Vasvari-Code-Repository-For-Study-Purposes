@@ -1,6 +1,7 @@
 div {
     width: 100px;
     height: 100px;
+    box-sizing: border-box;
 }
 
 .kek {
@@ -9,4 +10,16 @@ div {
 
 .sarga {
     background-color: yellow;
+}
+
+.szinvalto{
+    background-color: yellow;
+}
+
+.bordered{
+    border: 10px double red;
+}
+
+.colorizer {
+    width: 100%;
 }
