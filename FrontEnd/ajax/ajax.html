@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAx bevezetés</title>
+
+</head>
+
+<body>
+    <div class="content">
+
+    </div>
+</body>
+
+</html>
+
+<script>
+    let content = document.querySelector(".content");
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(resp => resp.json())
+        .then(json => {
+            console.log(Array.isArray(json));   //Megnéztem egy ez az objektum tömb típusú-e?
+            if (Array.isArray(json)) {
+                json.forEach(object => {   //Foreach segítségével bejárom a tömb objektumot.
+                    //console.log(object)
+                    for (const key in object) {
+                        if (Object.hasOwnProperty.call(object, key)) {
+                            const element = object[key];
+
+                        }
+                    }
+                });
+            }
+            //json[0] <- 1 user adatai
+            let list = "<ul>";
+            let table = "<table>";
+            for (const key in json[0]) {    //Objektum bejárása a forin ciklussal
+                if (Object.hasOwnProperty.call(json[0], key)) { //Ha létezik a kulcs?
+                    //const element = json[0][key];
+                    list += `<li>${key}</li>`;  //Kulcs hozzáadása a listához.
+                    table += `<tr>
+                            <td>${key}</td>
+                            <td>${json[0][key]}</td>    
+                        </tr>`;
+                        //json[0][key] : Objektum adott kulcsához tartozó érték elérése.
+                }
+            }
+            list += "</ul>";
+            table += "</table>";
+            content.innerHTML = list;
+            content.innerHTML += table;
+
+        })
+
+</script>
