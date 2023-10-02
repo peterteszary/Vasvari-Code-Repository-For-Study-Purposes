@@ -9,7 +9,18 @@ $(document).ready(function(){
             $(".content").append("<ul></ul>");
             for (const key in d) {
                 if (Object.hasOwnProperty.call(d, key)) {
-                   $("ul").append(`<li>${key} : ${d[key]}</li>`) 
+                    if (typeof d[key] == 'object') {
+                    $(".content > ul").append(`<li> ${key} <ul></ul> </li>`)
+                    const obj2 = d[key];
+                    for (const key2 in obj2) {
+                        if (Object.hasOwnProperty.call(obj2, key2)) {
+                            const element = obj2[key2];
+                            $("li > ul").append(`<li> ${key2} : ${obj2[key2]} </li>`)
+                        }
+                    } 
+                    } else {
+                        $(".content > ul").append(`<li>${key} : ${d[key]}</li>`) 
+                    }
 
                     
                     
