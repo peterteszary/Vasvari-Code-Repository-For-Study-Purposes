@@ -1,0 +1,15 @@
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\bin\Debug\net6.0\adatok_kiszedese.exe
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\bin\Debug\net6.0\adatok_kiszedese.deps.json
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\bin\Debug\net6.0\adatok_kiszedese.runtimeconfig.json
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\bin\Debug\net6.0\adatok_kiszedese.dll
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\bin\Debug\net6.0\adatok_kiszedese.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.AssemblyInfoInputs.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.AssemblyInfo.cs
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.dll
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\refint\adatok_kiszedese.dll
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.pdb
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\adatok_kiszedese.genruntimeconfig.cache
+C:\Users\peter\Documents\GitHub\Vasvari-Code-Repository-For-Study-Purposes\SQL\adatok_kiszedete\adatok_kiszedese\obj\Debug\net6.0\ref\adatok_kiszedese.dll
