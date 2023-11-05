@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue-Teszary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+      <p>Count is: {{ counter.count }}</p>
+      <h1 :class="titleClass">Make me red</h1>
+    </div>
+
+    <script type="module">
+      import { createApp, ref, reactive } from 'vue';
+
+      const app = createApp({
+        setup() {
+          const counter = reactive({ count: 0 });
+          const message = ref('Hello World');
+          const titleClass = ref('title');
+
+          return {
+            counter,
+            message,
+            titleClass
+          };
+        }
+      });
+
+      import App from 'App.vue'; 
+
+
+      app.mount('#app');
+    </script>
+  </body>
+</html>
+
