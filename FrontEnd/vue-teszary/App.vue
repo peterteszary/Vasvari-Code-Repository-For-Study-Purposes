@@ -15,6 +15,29 @@ const message = ref('Hello World');
 const titleClass = ref('title');
 </script>
 
+<script type="module">
+import { createApp, ref } from 'vue'
+
+createApp({
+  setup() {
+    const count = ref(0)
+
+    function increment() {
+      count.value++
+    }
+
+    return {
+      count,
+      increment
+    }
+  }
+}).mount('#app')
+</script>
+
+<div id="app">
+  <button @click="increment">count is: {{ count }}</button>
+</div>
+
 <style>
 .title {
   color: red;
