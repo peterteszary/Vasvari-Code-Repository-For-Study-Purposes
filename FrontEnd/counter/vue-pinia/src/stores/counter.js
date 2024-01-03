@@ -6,7 +6,12 @@ export const useCounterStore = defineStore({
   state: () => ({
     count: 0
   }),
-  getters: {},
+  getters: {
+    parosParatlan () {
+    if (this.count % 2 == 0) return 'páros';
+    return 'páratlan';
+    }
+  },
   actions:{
     inc() {
       this.count++

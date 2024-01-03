@@ -13,7 +13,10 @@ const storeCounter = useCounterStore();
   <button @click="storeCounter.dec">-</button>
   <button @click="storeCounter.inc">+</button>
  </div>
-
+<hr>
+<div>
+  <p>Ez a szám: {{ storeCounter.parosParatlan }}</p>
+</div>
 </template>
 
 <style scoped>
