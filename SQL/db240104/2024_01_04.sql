@@ -139,6 +139,12 @@ HAVING
 
 -- 16:  Mennyi pénzt fizettek be az elmúlt 365 napban?
 
+SELECT
+SUM(befiz.osszeg) AS 'osszesen'
+FROM
+    befiz
+WHERE DATE(befiz.datum) >= DATE_ADD( DATE (NOW()) , INTERVAL -365 DAY)
+
 -- 17:  Ki a legidősebb ügyfél?
 
 -- 18:  Ki, és mikor követte el a legkisebb összegű befizetést?
