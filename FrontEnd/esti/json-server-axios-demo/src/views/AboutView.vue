@@ -1,15 +1,17 @@
+<script setup>
+import { onMounted, ref } from 'vue';
+const title = ref("");
+const send = () => {
+  console.log=(title.value)
+  fetch()
+}
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <input v-model = "title" type="text" placeholder="Mi az új cím?">
+  <button @click="send">Küldés</button>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
