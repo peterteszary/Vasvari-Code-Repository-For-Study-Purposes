@@ -1,0 +1,16 @@
+{
+    "products":[
+        {"id" : "1", "name" : "elektromos kapu", "price": "500000", "img" : "no-image.png"},
+        {"id" : "2", "name" : "gumiabroncs" , "price": "45000", "img" : "no-image.png"},
+        {"id" : "3", "name" : "asztal", "price": "25000", "img" : "no-image.png"},
+        {"id" : "4", "name" : "szék", "price": "25000", "img" : "no-image.png"}
+    ],
+    "order":[
+            {"id" : "1", "datum":"2024-01-31", "pId" : "1", "quantity" : "2", "uId" : "2"}
+    ],
+    "user":[
+        {"id": "1", "name" : "Looser", "email" : "cim@domain.hu", "address": "Bújócska utca kavics után jobbra"},
+        {"id": "2", "name": "Winner", "email" : "victory@domain.org", "address": "Ahol megtalálsz"}
+    ],
+    "cart" : []
+    }
