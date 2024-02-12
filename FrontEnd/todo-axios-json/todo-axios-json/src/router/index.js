@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TodoView from '../views/ToDoView.vue'
+import ToDoView from '../views/ToDoView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'todo',
-      component: TodoView
+      component: ToDoView
     },
     {
       path: '/newtask',
