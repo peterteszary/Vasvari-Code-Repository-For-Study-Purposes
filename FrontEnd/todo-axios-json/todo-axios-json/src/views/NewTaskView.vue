@@ -31,7 +31,7 @@ const saveTask = () => {
             nextId = String(Number(shadowCopy[(shadowCopy.length - 1)].id) + 1);
             let data = {
                 id : nextId,
-                task : tasl.value,
+                task : task.value,
                 deadline : date.value
             }
             axios.post("http://localhost:3000/todos", JSON.stringify(data)) 
