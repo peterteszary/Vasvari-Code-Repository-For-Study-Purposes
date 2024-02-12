@@ -1,6 +1,15 @@
 {
-    "todos" : [
-    {"id" : "1", "task" : "ToDo app elkészítése", "deadline" : "2024.02.29"}
-    ]
-    
-    }
+    "todos": 
+    [
+      {
+          "id": "1",
+          "task": "ToDo App elkészítése",
+          "deadline": "2024.02.29"
+      },
+      {
+          "id": "2",
+          "task": "Projekt formázása",
+          "deadline": "2024.02.29"
+      }
+      ]
+  }
