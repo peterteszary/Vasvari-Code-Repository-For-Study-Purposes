@@ -24,16 +24,20 @@ const saveTask = () => {
     else { //Az adatok küldése is itt történik.
         error.value = false;
         let shadowCopy = [];
+        let nextId = null;
         axios.get("http://localhost:3000/todos")
         .then(resp => {
-            shadowCopy.push(resp.data);
+            shadowCopy = resp.data;
+            nextId = String(Number(shadowCopy[(shadowCopy.length - 1)].id) + 1);
+            let data = {
+                id : nextId,
+                task : tasl.value,
+                deadline : date.value
+            }
+            axios.post("http://localhost:3000/todos", JSON.stringify(data)) 
         });
-        console.log(Array .isArray(shadowCopy)); 
-
-        let nextId = shadowCopy[shadowCopy.length - 1] .id + 1;
-        console.log(nextId);
         
-        //axios.post("http://localhost:3000/todos", data) 
+        
           
     }
 }
