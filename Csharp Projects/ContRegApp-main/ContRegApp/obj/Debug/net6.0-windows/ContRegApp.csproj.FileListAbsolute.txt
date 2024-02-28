@@ -1,0 +1,6 @@
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\ContRegApp.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\Views\Main.g.cs
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\ContRegApp_MarkupCompile.cache
+C:\Users\peter\Documents\GitHub\ContRegAppGit\ContRegApp\ContRegApp\obj\Debug\net6.0-windows\ContRegApp_MarkupCompile.lref
