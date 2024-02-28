@@ -1,0 +1,25 @@
+/* CSS PRINT beállítások */
+
+@media print 
+
+body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+}
+
+#page {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+#header, #mySidenav a, #footer, main{
+	display: none;
+}
+
+#printed-article {
+	border: 1px solid #666;
+	padding: 10px;
+}
+       
+ 

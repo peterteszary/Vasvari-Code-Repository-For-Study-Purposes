@@ -1,0 +1,139 @@
+/* Általános alapformázás */
+
+body {
+   background-image: url("images/pattern.png");
+   background-color: #cccccc;
+   color: white;
+}
+
+p {
+    
+    text-decoration-color: white;
+}
+
+.headings
+{   
+    
+    background-color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 3px solid grey;
+    padding: 10%, 2, 10, 2;
+
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 2px 4px 3px 4px;
+    width: 79%;
+    padding: 10%, 2, 10, 2;
+    border: 3px solid grey;
+    margin: auto;
+}
+
+.textbox {
+    margin: 20px;
+}
+
+.textbox2 {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Táblázat */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #777777;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #5f5f5f;
+}
+
+.rounded
+{
+    border-radius: 50%;
+}
+
+/* Lábrész */
+
+.footer
+{   
+    
+    background-color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 3px solid grey;
+    padding: 10%, 2, 10, 2;
+
+}
+
+/* Menürendszer */
+
+#mySidenav a {
+    position: absolute; /* Relatív pozíció a böngészőben */
+    left: -80px; /* Pozíció a böngészőablakon kívül */
+    transition: 0.3s; /* Átmenet ha föléviszem az egeret */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* specifikus szélesség */
+    text-decoration: none; /* Aláhúzás megszüntetése */
+    font-size: 20px; /* Betűméret */
+    color: white; /* Betűszín */
+    border-radius: 0 2px 2px 0; /* kerekített sarkok */
+}
+
+
+#mySidenav a:hover {
+        left: 0; 
+    }
+
+
+#fooldal {
+    top: 20px;
+    background-color: rgb(75, 75, 75);
+}
+
+#miaz {
+    top: 80px;
+    background-color: rgb(95, 95, 95); 
+}
+
+#tori {
+    top: 140px;
+    background-color: rgb(115, 115, 115); 
+}
+
+#galeria {
+    top: 200px;
+    background-color: rgb(135, 135, 135); 
+}
+
+#meret {
+    top: 260px;
+    background-color: rgb(155, 155, 155); 
+}
+
+#forras {
+    top: 320px;
+    background-color: rgb(175, 175, 175); 
+}
+
+
+     
